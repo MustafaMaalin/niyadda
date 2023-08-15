@@ -1,5 +1,5 @@
 import { blog } from "@/assets/data/dummydata"
-import BlogCard from "@/components/BlogCard"
+import BlogCard from "@/components/Blogcard"
 import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
