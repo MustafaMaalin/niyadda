@@ -6,7 +6,7 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "5+ years of experience",
   },
   {
     icon: <TfiRulerPencil size={25} />,
@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "Successful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
@@ -82,37 +82,37 @@ export const showcase = [
     id: 1,
     title: "Neon Lights",
     cover: "../images/s1.jpg",
-    catgeory: "DIGITAL MARKETING",
+    category: "DIGITAL MARKETING",
   },
   {
     id: 2,
     title: "Futuristic Furniture",
-    catgeory: "WEBSITES",
+    category: "WEBSITES",
     cover: "../images/s2.jpg",
   },
   {
     id: 3,
     title: "Smart Living",
     cover: "../images/s3.jpg",
-    catgeory: "WEBSITES",
+    category: "WEBSITES",
   },
   {
     id: 4,
     title: "Light Painting",
     cover: "../images/s4.jpg",
-    catgeory: "BRANDING	",
+    category: "BRANDING	",
   },
   {
     id: 5,
     title: "Ideabox",
     cover: "../images/s5.jpg",
-    catgeory: "BRANDING	",
+    category: "BRANDING	",
   },
   {
     id: 5,
     title: "VR Experience",
     cover: "../images/s6.jpg",
-    catgeory: "WEBSITES	",
+    category: "WEBSITES	",
   },
 ]
 export const brand = [
@@ -174,45 +174,22 @@ export const blogdata = [
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
+    title: "Mustafa Maalin",
     cover: "../images/t1.jpg",
     post: "FOUNDER, CEO",
+    href: "https://www.linkedin.com/in/mustafa-m-b1a74435/",
   },
   {
     id: 2,
-    title: "Anna Kovalenko",
+    title: "Kalid Warsame",
     cover: "../images/t2.jpg",
-    post: "FINANCE DIRECTOR",
+    post: "FOUNDER, CEO",
   },
   {
     id: 3,
-    title: "Tiffany White",
+    title: "Shuceyb Maalin",
     cover: "../images/t3.jpg",
-    post: "CREATIVE DIRECTOR",
-  },
-  {
-    id: 4,
-    title: "Richard Greenwood",
-    cover: "../images/t4.jpg",
-    post: "PROGRAMMER",
-  },
-  {
-    id: 5,
-    title: "Jessica Brown",
-    cover: "../images/t5.jpg",
-    post: "MARKETING DIRECTOR",
-  },
-  {
-    id: 6,
-    title: "Gregory Windstorm",
-    cover: "../images/t6.jpg",
-    post: "ACCOUNTING MANAGER",
-  },
-  {
-    id: 7,
-    title: "Anna Red",
-    cover: "../images/t7.jpg",
-    post: "PROJECT MANAGER",
+    post: "CREATIVE DEVELOPER",
   },
   {
     id: 8,
