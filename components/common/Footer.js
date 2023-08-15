@@ -26,22 +26,22 @@ const Footer = () => {
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/agency'>About agency</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href='/team'>Our team</Link>
               </li>
               <li>
-                <Link href='/'>Showcase</Link>
+                <Link href='/services'>Services</Link>
               </li>
               <li>
-                <Link href='/'>Blog</Link>
+                <Link href='/showcase'>Showcase</Link>
               </li>
               <li>
-                <Link href='/'>Demo design system</Link>
+                <Link href='/blog'>Blog</Link>
               </li>
               <li>
-                <Link href='/'>Contact</Link>
+                <Link href='/contact'>Contact</Link>
               </li>
             </ul>
             <ul>
@@ -68,17 +68,12 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
-                    <AiFillBehanceCircle size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
+                  <Link target="_blank" href='/https://www.instagram.com/niyadda_agency/'>
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link target="_blank" href='/'>
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
@@ -87,10 +82,10 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© 2023 NIYADDA. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>GORKCODER COMPANY</span>
+              <span>NIYADDA DIGITAL AGENCY</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>

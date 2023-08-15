@@ -82,38 +82,27 @@ export const showcase = [
     id: 1,
     title: "Neon Lights",
     cover: "../images/s1.jpg",
-    category: "DIGITAL MARKETING",
+    catgeory: "DIGITAL MARKETING",
   },
   {
     id: 2,
     title: "Futuristic Furniture",
-    category: "WEBSITES",
+    catgeory: "WEBSITES",
     cover: "../images/s2.jpg",
   },
   {
     id: 3,
     title: "Smart Living",
     cover: "../images/s3.jpg",
-    category: "WEBSITES",
+    catgeory: "WEBSITES",
   },
   {
     id: 4,
     title: "Light Painting",
     cover: "../images/s4.jpg",
-    category: "BRANDING	",
+    catgeory: "BRANDING	",
   },
-  {
-    id: 5,
-    title: "Ideabox",
-    cover: "../images/s5.jpg",
-    category: "BRANDING	",
-  },
-  {
-    id: 5,
-    title: "VR Experience",
-    cover: "../images/s6.jpg",
-    category: "WEBSITES	",
-  },
+  
 ]
 export const brand = [
   {
@@ -148,6 +137,7 @@ export const blogdata = [
     cover: "../images/b1.webp",
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.",
   },
   {
     id: 2,
@@ -155,46 +145,44 @@ export const blogdata = [
     cover: "../images/b2.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 20, 2023",
+    content: "Mustafa ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.",
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title: "How Kalid and Mustafa started Niyadda",
     cover: "../images/b3.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 9, 2023",
-  },
-  {
-    id: 4,
-    title: "What eleifend posuere tincidunt",
-    cover: "../images/b4.jpg",
-    catgeory: "EVENTS",
-    date: "OCTOBER 8, 2023",
+    catgeory: "STORYTIME",
+    date: "AUGUST 15, 2023",
+    content: "We are the creators of Niyadda Digital Agency, Mustafa and Kalid. We are young developers with high ambitions and aspirations in the digital world. After completing our internships and earning our degrees, we decided to found this agency. At Niyadda Digital Agency, the continuity of your product is always guaranteed.",
   },
 ]
 export const teamdata = [
   {
     id: 1,
     title: "Mustafa Maalin",
-    cover: "../images/t1.jpg",
-    post: "FOUNDER, CEO",
+    cover: "../images/t1 2.jpg",
+    post: "FOUNDER, DESIGNER & DEVELOPER",
     href: "https://www.linkedin.com/in/mustafa-m-b1a74435/",
   },
   {
     id: 2,
     title: "Kalid Warsame",
     cover: "../images/t2.jpg",
-    post: "FOUNDER, CEO",
+    post: "FOUNDER, DEVELOPER",
+    href: "https://www.linkedin.com/in/kalid-warsame/",
   },
   {
     id: 3,
     title: "Shuceyb Maalin",
     cover: "../images/t3.jpg",
     post: "CREATIVE DEVELOPER",
+    href: "https://www.linkedin.com/in/shuceyb-maalin-27a0621b9/",
   },
   {
     id: 8,
     title: "Join our team!",
     cover: "../images/t8.jpg",
     post: "",
+    href: "mailto:info@niyadda.com",
   },
 ]

@@ -16,7 +16,17 @@ const Team = () => {
           </div>
           <div className='grid-4 py'>
             {teamdata.map((item) => (
-              <Card data={item} key={item.id} caption={item.post} />
+              <div 
+                key={item.id} 
+                onClick={() => {
+                  if (item.href) {
+                    window.open(item.href, "_blank");
+                  }
+                }}
+                style={{ cursor: item.href ? 'pointer' : 'default' }}
+              >
+                <Card data={item} caption={item.post} />
+              </div>
             ))}
           </div>
         </div>
@@ -24,5 +34,7 @@ const Team = () => {
     </>
   )
 }
+
+
 
 export default Team

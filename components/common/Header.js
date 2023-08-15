@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
 import NiyaddaLogo from "../Logo"
+// import NiyaddaBigLogo from "../BigLogo"
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("")
