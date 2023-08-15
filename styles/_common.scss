@@ -44,6 +44,12 @@
   border-radius: 50px;
   box-shadow: $shadow-md;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+  &:hover {
+    background-color: $green;
+  box-shadow: $shadow-md;
+  color: $white;
+  }
 }
 .secondary-button {
   background-color: #171e20;
@@ -56,7 +62,9 @@
   box-shadow: rgba($dark, 5) 0px 7px 29px 0px;
   transition: 0.5s ease-in-out;
   &:hover {
-    color: $green;
+    background-color: $green;
+  box-shadow: $shadow-md;
+  color: $white;
   }
 }
 .heading-title {

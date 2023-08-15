@@ -4,6 +4,7 @@ import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
+import NiyaddaLogo from "../Logo"
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("")
@@ -18,9 +19,7 @@ const Header = () => {
       <header>
         <div className='container'>
           <div className='logo'>
-            <Link href='/'>
-            <img src="/Niyadda.svg" alt="Niyadda" className='logomin' />
-            </Link>
+          <NiyaddaLogo/>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
             <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>
@@ -46,7 +45,7 @@ const Header = () => {
             </Link>
             <button className='button-primary'>book a consultation</button>
           </nav>
-          <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
+          <button className="mobile-menu-button" onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>
       </header>
     </>
