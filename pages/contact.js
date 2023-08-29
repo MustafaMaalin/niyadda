@@ -1,6 +1,7 @@
 import { Contact } from "@/sections"
 import Head from "next/head"
 import React from "react"
+import { useState } from "react"
 
 const contact = () => {
   return (
@@ -11,6 +12,8 @@ const contact = () => {
       <Contact />
     </>
   )
+
+  
 }
 
 export default contact
