@@ -133,28 +133,28 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
+    title: "Design with Figma: A Comprehensive Guide",
     cover: "../images/b1.webp",
-    catgeory: "INDUSTRY",
-    date: "JANUARY 12, 2023",
+    catgeory: "DESIGN",
+    date: "AUGUST 29, 2023",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.",
   },
-  {
-    id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
-    cover: "../images/b2.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 20, 2023",
-    content: "Mustafa ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.",
-  },
-  {
-    id: 3,
-    title: "How Kalid and Mustafa started Niyadda",
-    cover: "../images/b3.jpg",
-    catgeory: "STORYTIME",
-    date: "AUGUST 15, 2023",
-    content: "We are the creators of Niyadda Digital Agency, Mustafa and Kalid. We are young developers with high ambitions and aspirations in the digital world. After completing our internships and earning our degrees, we decided to found this agency. At Niyadda Digital Agency, the continuity of your product is always guaranteed.",
-  },
+  // {
+  //   id: 2,
+  //   title: "Don’t underestimate the lorem ipsum dolor amet",
+  //   cover: "../images/b2.jpg",
+  //   catgeory: "TIPS & TRICKS",
+  //   date: "OCTOBER 20, 2023",
+  //   content: "Mustafa ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.",
+  // },
+  // {
+  //   id: 3,
+  //   title: "How Kalid and Mustafa started Niyadda",
+  //   cover: "../images/b3.jpg",
+  //   catgeory: "STORYTIME",
+  //   date: "AUGUST 15, 2023",
+  //   content: "We are the creators of Niyadda Digital Agency, Mustafa and Kalid. We are young developers with high ambitions and aspirations in the digital world. After completing our internships and earning our degrees, we decided to found this agency. At Niyadda Digital Agency, the continuity of your product is always guaranteed.",
+  // },
 ]
 export const teamdata = [
   {

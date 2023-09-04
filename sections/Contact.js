@@ -7,6 +7,8 @@ import { BsFacebook } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
 import { useState } from "react"
+import axios from "axios"
+
 
 const Contact = () => {
 
@@ -17,37 +19,91 @@ const Contact = () => {
   const [message, setMessage] = useState("")
   const [submitted, setSubmitted] = useState("")
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    let data = {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const errorElement = document.getElementById("error");
+    const errorElement2 = document.getElementById("error2");
+    const errorElement3 = document.getElementById("error3");
+    const successElement = document.getElementById("successful");
+  
+    if (!name || !email || !budget || !timeframe || !message) {
+      setSubmitted(false);
+      errorElement.style.display = "block";
+  
+      setTimeout(() => {
+        if (errorElement) {
+          errorElement.style.display = "none";
+        }
+      }, 3000);
+  
+      return;
+    }
+  
+    const data = {
       name,
       email,
       budget,
       timeframe,
       message,
-    }
-    fetch('/api/contact', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json, text/plain, */*',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    }).then((res) => {
-      console.log('Response received')
-      if (res.status === 200) {
-        console.log('Response succeeded!')
-        setSubmitted(true)
-        setName('')
-        setEmail('')
-        setBudget('')
-        setTimeframe('')
-        setMessage('')
-      }
-    })
-  }
+    };
+  
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json, text/plain, */*',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+      console.log(response);
+  
+      if (response.ok===true) {
+        if (successElement) {
+          successElement.style.display = "block";
+          setTimeout(() => {
+            if (successElement) {
+              successElement.style.display = "none";
+            }
+          }, 5000);
 
- 
+          
+        }
+        const formElement = document.getElementById("contact-form");
+
+        setSubmitted(true);
+        // setName('');
+        // setEmail('');
+        // setBudget('');
+        // setTimeframe('');
+        // setMessage('');
+
+
+      if (formElement) {
+        setTimeout(() => {
+          if (formElement) {
+            formElement.reset();
+          }
+        }, 3000);
+      }
+
+      setTimeout(() => {
+        window.location.reload();
+      }, 3000);
+
+      } else {
+        console.log('Response failed');
+        setSubmitted(false);
+        // errorElement2.style.display = "block";      
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setSubmitted(false);
+      // errorElement3.style.display = "block";
+    }
+
+  };
+
 
   return (
     <>
@@ -94,7 +150,7 @@ const Contact = () => {
               <TitleSm title='Make an online enquiry' />
               <p className='desc-p'>Got questions? Ideas? Fill out the form below to get our proposal. </p>
 
-              <form>
+              <form id="contact-form" onSubmit={handleSubmit}>
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>Name</span>
@@ -102,13 +158,13 @@ const Contact = () => {
                   </div>
                   <div className='inputs'>
                     <span>Email</span>
-                    <input type='text' onChange={(e)=>{setEmail(e.target.value)}}/>
+                    <input type='email' onChange={(e)=>{setEmail(e.target.value)}}/>
                   </div>
                 </div>
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>your budget</span>
-                    <input type='text' onChange={(e)=>{setBudget(e.target.value)}}/>
+                    <input type='number' onChange={(e)=>{setBudget(e.target.value)}}/>
                   </div>
                   <div className='inputs'>
                     <span>timeframe</span>
@@ -119,11 +175,17 @@ const Contact = () => {
                   <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
                   <textarea cols='30' rows='10' onChange={(e)=>{setMessage(e.target.value)}}></textarea>
                 </div>
-                <button className= 'button-primary' onClick={(e)=>{handleSubmit(e)}}>SUBMIT</button>
+                <button className="button-primary" type="submit">SUBMIT</button>
+                <div className="message">
+                  {submitted && <div className="successful" id="successful" style={{ marginTop: '2rem', color: 'white', animation: 'button .3s linear', textAlign: 'center', display: submitted ? 'block' : 'none' }}>Your message has been received!</div>}
+                  {!submitted && <div className="error" id="error">Please fill out all fields</div>}
+                  {!submitted && <div className="error" id="error2" >There was an error sending your message</div>}
+                </div>
               </form>
             </div>
           </div>
         </div>
+
       </section>
     </>
   )
