@@ -14,19 +14,15 @@ const Contact = () => {
 
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
-  const [budget, setBudget] = useState("")
-  const [timeframe, setTimeframe] = useState("")
   const [message, setMessage] = useState("")
   const [submitted, setSubmitted] = useState("")
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const errorElement = document.getElementById("error");
-    const errorElement2 = document.getElementById("error2");
-    const errorElement3 = document.getElementById("error3");
     const successElement = document.getElementById("successful");
   
-    if (!name || !email || !budget || !timeframe || !message) {
+    if (!name || !email || !message) {
       setSubmitted(false);
       errorElement.style.display = "block";
   
@@ -42,8 +38,6 @@ const Contact = () => {
     const data = {
       name,
       email,
-      budget,
-      timeframe,
       message,
     };
   
@@ -65,7 +59,7 @@ const Contact = () => {
             if (successElement) {
               successElement.style.display = "none";
             }
-          }, 5000);
+          }, 2000);
 
           
         }
@@ -74,8 +68,6 @@ const Contact = () => {
         setSubmitted(true);
         // setName('');
         // setEmail('');
-        // setBudget('');
-        // setTimeframe('');
         // setMessage('');
 
 
@@ -84,12 +76,12 @@ const Contact = () => {
           if (formElement) {
             formElement.reset();
           }
-        }, 3000);
+        }, 2000);
       }
 
       setTimeout(() => {
         window.location.reload();
-      }, 3000);
+      }, 2000);
 
       } else {
         console.log('Response failed');
@@ -159,16 +151,6 @@ const Contact = () => {
                   <div className='inputs'>
                     <span>Email</span>
                     <input type='email' onChange={(e)=>{setEmail(e.target.value)}}/>
-                  </div>
-                </div>
-                <div className='grid-2'>
-                  <div className='inputs'>
-                    <span>your budget</span>
-                    <input type='number' onChange={(e)=>{setBudget(e.target.value)}}/>
-                  </div>
-                  <div className='inputs'>
-                    <span>timeframe</span>
-                    <input type='text' onChange={(e)=>{setTimeframe(e.target.value)}}/>
                   </div>
                 </div>
                 <div className='inputs'>

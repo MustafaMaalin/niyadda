@@ -10,15 +10,15 @@ export const home = [
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Unique technologies & modern approach ",
+    title: "Data-Driven Strategies for Measurable Results",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "Successful cases in portfolio",
+    title: "Proven Track Record of Success",
   },
   {
     icon: <BiUser size={25} />,
-    title: "Customer satisfaction is our top priority",
+    title: "Custom Solutions Tailored to Your Needs",
   },
 ]
 export const expertise = [
@@ -134,6 +134,7 @@ export const blogdata = [
   {
     id: 1,
     title: "Design with Figma: A Comprehensive Guide",
+    author: "Kalid Warsame",
     cover: "../images/b1.webp",
     catgeory: "DESIGN",
     date: "AUGUST 29, 2023",

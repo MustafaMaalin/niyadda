@@ -12,14 +12,14 @@ const Agency = () => {
             <TitleSm title="ABOUT AGENCY" /> <br />
             <br />
             <Title
-              title="The last digital agency you will ever need!"
+              title="Unmatched Services to Propel Your Digital Transformation!"
               className="title-bg"
             />
           </div>
 
           <div className="content flex1">
             <div className="left w-60 py">
-              <TitleSm title="Turning your business ideas into smart digital products since 2001" />
+              <TitleSm title="Transforming Your Digital Intentions into Reality since 2018." />
               <p className="desc-p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                 rhoncus eleifend magna, molestie iaculis sem pulvinar eu. Etiam

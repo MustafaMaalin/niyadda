@@ -17,7 +17,7 @@ export default async function (req, res) {
       to: 'info@niyadda.com',
       subject: `Message From ${req.body.name}`,
       text: req.body.message + ' | Sent from: ' + req.body.email,
-      html: `<div><p>Name: ${req.body.name}</p> <p>Budget: ${req.body.budget}</p> <p>Timeframe: ${req.body.timeframe}</p></div><div><p> Details: ${req.body.message}</p> </div><p>Sent from: ${req.body.email}</p>`,
+      html: `<div><p>Name: ${req.body.name}</p> </div><div><p> Details: ${req.body.message}</p> </div><p>Sent from: ${req.body.email}</p>`,
     };
   
     try {
