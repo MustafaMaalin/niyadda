@@ -31,6 +31,16 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+.titlebanner {
+  font-size: $xl-5;
+  font-weight: 500;
+  background: white;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 .title-bg {
   font-size: 40px;
 }
@@ -165,7 +175,12 @@
   }
 }
 
-.develop{
-  color: #B19CD9;
 
+.develop{
+  background: $gradient2;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }

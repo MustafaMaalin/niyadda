@@ -18,8 +18,8 @@ const Hero = () => {
           <h1 className='hero-title'>WE <strong className="develop"> DEVELOP</strong> YOUR INTENTIONS</h1>
 
           <div className='sub-heading'>
-            <TitleSm title='WEBSITES' /> <span>.</span>
-            <TitleSm title='BRANDING' /> <span>.</span>
+            <TitleSm title='WEBSITES' /> <span className="title">.</span>
+            <TitleSm title='BRANDING' /> <span className="title">.</span>
             <TitleSm title='DIGITAL MARKETING' />
           </div>
         </div>

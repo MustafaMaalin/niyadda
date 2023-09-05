@@ -9,7 +9,6 @@ import { IoLocationOutline } from "react-icons/io5"
 import { useState } from "react"
 import axios from "axios"
 
-
 const Contact = () => {
 
   const [name, setName] = useState("")
@@ -99,6 +98,7 @@ const Contact = () => {
 
   return (
     <>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
       <section className='contact bg-top'>
         <div className='container'>
           <div className='heading-title'>
