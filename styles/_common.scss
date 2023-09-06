@@ -47,10 +47,11 @@
 .secondary-button,
 .button-primary {
   text-transform: capitalize;
-  color: $white ;
+  color: $white;
   padding: 13px 40px;
-  background-color: $green;
+  background: $gradient2;
   font-size: $md;
+  // font-weight: bolder;
   border-radius: 50px;
   box-shadow: $shadow-md;
   cursor: pointer;
@@ -174,6 +175,26 @@
   .heading-title {
     max-width: 100%;
     padding: 50px 0;
+  }
+  .button-primary {
+    text-transform: capitalize;
+    color: $white;
+    padding: 13px 10px;
+    background: $gradient2;
+    font-size: $md;
+    // font-weight: bolder;
+    border-radius: 50px;
+    box-shadow: $shadow-md;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+    &:hover {
+      background-color: $green;
+    box-shadow: $shadow-md;
+    color: $white;
+    }
+  }
+  .br-needed{
+    margin-top: 20px;
   }
 }
 

@@ -380,7 +380,7 @@
         flex-direction: column;
       }
       .grid-3 {
-        @include grid(repeat(3, 1fr), 50px);
+        // @include grid(repeat(3, 1fr), 50px);
       }
     }
     .contact {
@@ -441,5 +441,18 @@
 .text-center {
   text-align: center;
   margin-bottom: 50px;
+}
+.logowidth{
+  width: 200px;
+}
+.agency .content .box h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.desc-p {
+  font-size: 4px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  // margin: 22px 0;
 }
 }

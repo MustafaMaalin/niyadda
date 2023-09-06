@@ -19,9 +19,9 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>info@niyadda.com</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <Link href='/contact' className='button-primary'>Contact us!</Link>
             </div>
             <ul>
               <h3>COMPANY</h3>
@@ -47,16 +47,16 @@ const Footer = () => {
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href='/services'>Web Design & Development</Link>
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+                <Link href='/services'>Branding & Creative Services</Link>
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+                <Link href='/services'>Digital Marketing</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href='/services'>E-Commerce</Link>
               </li>
             </ul>
             <ul>
@@ -85,9 +85,7 @@ const Footer = () => {
               <span>© 2023 NIYADDA. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>NIYADDA DIGITAL AGENCY</span>
-              <span> &nbsp; | &nbsp; </span>
-              <span>TERMS & CONDITIONS</span>
+              {/* <span>TERMS & CONDITIONS</span> */}
             </div>
           </div>
         </div>

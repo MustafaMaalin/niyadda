@@ -2,7 +2,7 @@ import React from 'react';
 
 const NiyaddaBigLogo = () => {
     return (
-        <svg width="300" height="200" viewBox="0 0 127 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className='logowidth' width="300" height="200" viewBox="0 0 127 43" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M20.6933 6.23828V23.4539H18.6764L8.34382 10.6157V23.4539H5.88362V6.23828H7.90046L18.2331 19.0764V6.23828H20.6933Z" fill="#231F20"/>
 <path d="M25.8546 6.23828H28.3148V23.4539H25.8546V6.23828Z" fill="#231F20"/>
 <path d="M40.0781 17.5022V23.4539H37.6427V17.4526L30.8048 6.23828H33.4364L38.9467 15.3135L44.4818 6.23828H46.9172L40.0781 17.5022Z" fill="#231F20"/>
