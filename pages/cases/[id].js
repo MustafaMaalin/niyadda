@@ -7,10 +7,8 @@ import React from "react";
 
 const CasePost = () => {
   const router = useRouter();
-  console.log(router.query);
   const { id } = router.query;
   const post = showcase.find((post) => post.id === parseInt(id));
-  console.log(post);
 
   if (!post) {
     return <div>Loading...</div>;
@@ -29,9 +27,22 @@ const CasePost = () => {
           <Title title={post.title} className='title-bg' /> <br />
 
           <div className='img py'>
-            <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
+            <img src={post.cover} alt={post.title} width='75%' height='75%' className='round' />
           </div>
+          <div className='desc'>
+          {post.content.map((item, index) => (
+            <div key={index}>
+              <h3>{item.heading1}</h3>
+              <p>{item.text0}</p>
+              <p>{item.text1}</p>
+              <p>{item.text2}</p>
+              <p>{item.text3}</p>
+              <p>{item.text4}</p>
+
+              </div>
+            ))}
           
+        </div>
         </div>
         <Banner />
 
