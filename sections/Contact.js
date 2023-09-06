@@ -134,7 +134,7 @@ const Contact = () => {
                   <a href="https://instagram.com/niyadda_agency"> <AiFillInstagram size={25} /> </a>
                 </li>
                 <li className='icon'>
-                  <a href="https://linkedin.com/company/niyadda-digital-agency/"> <AiFillLinkedin size={25} /> </a>
+                  <a href="https://linkedin.com/company/niyadda-digital-agency"> <AiFillLinkedin size={25} /> </a>
                 </li>
               </ul>
             </div>
