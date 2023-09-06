@@ -68,7 +68,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link target="_blank" href='/https://www.instagram.com/niyadda_agency/'>
+                  <Link target="_blank" href='https://www.instagram.com/niyadda_agency/'>
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
