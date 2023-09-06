@@ -88,7 +88,7 @@
         @include flex(center, none, none);
         margin-bottom: $xl-4;
         .img {
-          width: $xll-3;
+          // width: $xll-3;
           height: $xll-3;
           img {
             width: 100%;
@@ -426,10 +426,20 @@
   z-index: -1;
   overflow-x: hidden !important;
 }
-.testimonial .cards .image .img img {
-  width: auto;
-}
+// .testimonial .cards .image .img img {
+ 
+// }
 .slick-dots {
-  top: 430px;
+  display: none !important;
+}
+.testimonials{
+  margin-bottom: 30px;
+}
+.card{
+  margin-bottom: 50px;
+}
+.text-center {
+  text-align: center;
+  margin-bottom: 50px;
 }
 }
