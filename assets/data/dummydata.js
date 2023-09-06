@@ -81,7 +81,7 @@ export const showcase = [
   {
     id: 1,
     title: "Brisbane United Football Club",
-    cover: "../images/s1.jpg",
+    cover: "../images/wall.jpg",
     catgeory: "DIGITAL MARKETING",
     content: [
       {
@@ -98,7 +98,7 @@ export const showcase = [
     id: 2,
     title: "Moorooka Mosque",
     catgeory: "DIGITAL MARKETING",
-    cover: "../images/s2.jpg",
+    cover: "../images/moor.jpg",
     content: [
       {
         title: "Moorooka Mosque",
@@ -112,7 +112,7 @@ export const showcase = [
   {
     id: 3,
     title: "Multicultural Healthcare",
-    cover: "../images/s3.jpg",
+    cover: "../images/multicult.jpg",
     catgeory: "WEBSITES",
     content: [
       {
