@@ -7,10 +7,8 @@ import React from "react";
 
 const BlogPost = () => {
   const router = useRouter();
-  console.log(router.query);
   const { id } = router.query;
   const post = blogdata.find((post) => post.id === parseInt(id));
-  console.log(post);
 
   if (!post) {
     return <div>Loading...</div>;

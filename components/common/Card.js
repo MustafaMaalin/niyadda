@@ -1,7 +1,10 @@
 import { TitleSm } from "./Title";
 import { HiOutlineArrowRight } from "react-icons/hi";
+import { useRouter } from "next/router";
 
 export const Card = ({ data, caption, show, path }) => {
+  const router = useRouter();
+
   return (
     <div className='card'>
       <div className='card-img'>
@@ -12,7 +15,7 @@ export const Card = ({ data, caption, show, path }) => {
           className='title-link'
           onClick={() => {
             if (path && data.id) {
-              window.open(`${path}/${data.id}`, "_blank");
+              router.push(`${path}/${data.id}`);
             }
           }}
           style={{ cursor: path ? 'pointer' : 'default' }}
@@ -23,7 +26,7 @@ export const Card = ({ data, caption, show, path }) => {
           <div
             onClick={() => {
               if (path && data.id) {
-                window.open(`${path}/${data.id}`, "_blank");
+                router.push(`${path}/${data.id}`);
               }
             }}
             style={{ cursor: path ? 'pointer' : 'default' }}
