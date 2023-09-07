@@ -52,7 +52,7 @@ export const testimonial = [
   {
     id: 1,
     name: "Yash Kamal",
-    cover: "../images/brisbane.png",
+    cover: "../images/brisbane.jpg",
     post: "President of Brisbane United Football Club",
     desc: "Niyadda has improved Brisbane United’s Instagram presence, allowing us to express our footballing journey in a more professional manner. Their expertise with branding and social media marketing has strengthened our connection with our supporters. It’s been rewarding to work with Niyadda.",
   },
