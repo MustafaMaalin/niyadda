@@ -20,7 +20,7 @@ const Header = () => {
       <header>
         <div className='container'>
           <div className='logo'>
-          <NiyaddaLogo/>
+         <Link href='/' ><NiyaddaLogo/></Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
             <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>

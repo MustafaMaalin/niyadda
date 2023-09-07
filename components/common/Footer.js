@@ -62,11 +62,7 @@ const Footer = () => {
             <ul>
               <h3>CONNECT</h3>
               <div className='connect'>
-                <li>
-                  <Link href='/'>
-                    <BsFacebook size={25} />
-                  </Link>
-                </li>
+              
                 <li>
                   <Link target="_blank" href='https://www.instagram.com/niyadda_agency/'>
                     <AiFillInstagram size={25} />

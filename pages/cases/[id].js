@@ -4,6 +4,7 @@ import { Title, TitleSm } from "@/components/common/Title";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
+import Link from "next/link";
 
 const CasePost = () => {
   const router = useRouter();
@@ -38,14 +39,14 @@ const CasePost = () => {
               <p>{item.text2}</p>
               <p>{item.text3}</p>
               <p>{item.text4}</p>
-
+              <Link href={post.href} className='button-primary'>See it in Action!</Link>
               </div>
             ))}
           
         </div>
         </div>
         <Banner />
-
+        
         
       </div>
     </section>

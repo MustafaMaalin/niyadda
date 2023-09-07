@@ -88,7 +88,7 @@
         @include flex(center, none, none);
         margin-bottom: $xl-4;
         .img {
-          // width: $xll-3;
+          width: $xll-3;
           height: $xll-3;
           img {
             width: 100%;
@@ -176,13 +176,14 @@
       color: rgba($dark, 0.5);
       transition: 0.5s ease-in-out;
       margin-bottom: $xl-2;
+      margin-right: 20px;
       display: block;
       &:hover {
         color: $green;
       }
     }
     .connect {
-      @include flex(center, space-between, none);
+      display: flex;
       span {
         font-size: $sm;
         letter-spacing: 2px;

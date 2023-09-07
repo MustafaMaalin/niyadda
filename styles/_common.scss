@@ -194,8 +194,9 @@
     }
   }
   .br-needed{
-    margin-top: 20px;
+    margin-top: 30px;
   }
+  
 }
 
 
@@ -206,4 +207,20 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+.titlebanner {
+  font-size: 20px !important;
+  font-weight: 500;
+  background: white;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.titlebanner2{
+  font-size: 25px !important;
+}
 }

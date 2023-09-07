@@ -2,6 +2,7 @@ import { AiOutlineCalendar } from "react-icons/ai"
 import { TfiRulerPencil } from "react-icons/tfi"
 import { VscFileSubmodule } from "react-icons/vsc"
 import { BiUser } from "react-icons/bi"
+import Link from "next/link"
 
 export const home = [
   {
@@ -65,17 +66,17 @@ export const testimonial = [
   {
     id: 3,
     name: "Ahmed, Multicultural Healthcare",
-    cover: "../images/multi.jpg",
+    cover: "../images/multi.png",
     post: "Multicultural Healthcare",
     desc: "We are absolutely thrilled with how our website has come to life! It's truly fantastic. Our clients have been finding it incredibly easy to navigate, and the information is presented very well. We have peace of mind knowing that our services are prominently showcased, helping us attract significant traffic to our site. The entire process was seamless and the service provided was both respectful and encouraging towards bringing our vision to reality. You've truly made our vision come to life!",
   },
-  {
-    id: 4,
-    name: "Diana Green",
-    cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
-  },
+  // {
+  //   id: 4,
+  //   name: "Diana Green",
+  //   cover: "../images/e4.jpg",
+  //   post: "Seven Arts - marketing manager",
+  //   desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+  // },
 ]
 export const showcase = [
   {
@@ -92,7 +93,9 @@ export const showcase = [
         text2: "But the journey didn’t stop at kickoff. As the matches unfolded, our real-time posts chronicled the highs, the lows, the goals, and the near-misses. With every twist and turn, fans were kept on the edge of their virtual seats, ensuring they never felt distant from the action.",
         text3: "And once the final whistle blew? The narrative continued, capturing post-match reactions, player insights, and, most importantly, celebrating the shared experiences of the Brisbane United community.",
         text4: "By crafting these engaging social media narratives, we weren’t just reporting results or sharing updates. We were curating a digital stadium, echoing with cheers, gasps, and chants, ensuring that every Brisbane United fan, regardless of where they were, felt the heartbeats of every match and remained immersed in the club's thrilling journey.",
-      },]
+      },
+ ],
+ href: "https://www.instagram.com/brisutdfc/",
   },
   {
     id: 2,
