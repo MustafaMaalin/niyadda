@@ -58,9 +58,9 @@ export const testimonial = [
   },
   {
     id: 2,
-    name: "Moorooka Mosque",
+    name: "Moorooka Mosque Committee",
     cover: "../images/moorooka.jpg",
-    post: "Moorooka Mosque Committee",
+    post: "Moorooka Mosque",
     desc: "Moorooka Mosque has been working closely with Niyadda Agency for our social media branding, content creation and social media posts and flyers. Thanks to Niyadda, we've successfully expanded our social media presence and connected with a broader audience.",
   },
   {
@@ -77,6 +77,14 @@ export const testimonial = [
   //   post: "Seven Arts - marketing manager",
   //   desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   // },
+
+  {
+    id: 4,
+    name: "Mohamed Hersi",
+    cover: "../images/ecg.jpg",
+    post: "Elite Care Givers",
+    desc: "I first came across Niyadda Agency and from the first interaction, it was easy to see why they had a reputation as one of the best in their craft. Professional with a consumer first mindset makes them very easy to work with. With quality at the forefront of their focus, the brochure they designed for my business was eye catching as well easy for my customers to read. Kalid is a compassionate and people friendly owner who is willing to make sure you leave satisfied with the work they have produced. I highly recommend Niyyada Agency ⭐️⭐️⭐️⭐️⭐️",
+  },
 ]
 export const showcase = [
   {
