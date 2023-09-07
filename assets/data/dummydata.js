@@ -57,24 +57,24 @@ export const testimonial = [
   },
   {
     id: 2,
-    name: "Moorooka Mosque",
+    name: "Moorooka Mosque Committee",
     cover: "../images/moorooka.jpg",
-    post: "Moorooka Mosque Committee",
+    post: "Moorooka Mosque",
     desc: "Moorooka Mosque has been working closely with Niyadda Agency for our social media branding, content creation and social media posts and flyers. Thanks to Niyadda, we've successfully expanded our social media presence and connected with a broader audience.",
   },
   {
     id: 3,
-    name: "Ahmed, Multicultural Healthcare",
+    name: "Ahmed Sheikh",
     cover: "../images/multi.jpg",
     post: "Multicultural Healthcare",
     desc: "We are absolutely thrilled with how our website has come to life! It's truly fantastic. Our clients have been finding it incredibly easy to navigate, and the information is presented very well. We have peace of mind knowing that our services are prominently showcased, helping us attract significant traffic to our site. The entire process was seamless and the service provided was both respectful and encouraging towards bringing our vision to reality. You've truly made our vision come to life!",
   },
   {
     id: 4,
-    name: "Diana Green",
-    cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    name: "Mohamed Hersi",
+    cover: "../images/ecg.jpg",
+    post: "Elite Care Givers",
+    desc: "I first came across Niyadda Agency and from the first interaction, it was easy to see why they had a reputation as one of the best in their craft. Professional with a consumer first mindset makes them very easy to work with. With quality at the forefront of their focus, the brochure they designed for my business was eye catching as well easy for my customers to read. Kalid is a compassionate and people friendly owner who is willing to make sure you leave satisfied with the work they have produced. I highly recommend Niyyada Agency ⭐️⭐️⭐️⭐️⭐️",
   },
 ]
 export const showcase = [

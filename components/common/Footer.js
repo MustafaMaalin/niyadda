@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai"
 import NiyaddaLogo from "../Logo" 
 import NiyaddaBigLogo from "../BigLogo"
 
@@ -38,7 +38,7 @@ const Footer = () => {
                 <Link href='/showcase'>Showcase</Link>
               </li>
               <li>
-                <Link href='/blog'>Blog</Link>
+                <Link href='/blogs'>Blogs</Link>
               </li>
               <li>
                 <Link href='/contact'>Contact</Link>
@@ -63,8 +63,8 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href='/'>
-                    <BsFacebook size={25} />
+                  <Link target="_blank" href="https://twitter.com/niyadda">
+                    <AiFillTwitterCircle size={25} />
                   </Link>
                 </li>
                 <li>
@@ -73,7 +73,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link target="_blank" href='/'>
+                  <Link target="_blank" href='https://linkedin.com/company/niyadda-digital-agency'>
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>

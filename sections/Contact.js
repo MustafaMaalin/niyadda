@@ -127,14 +127,14 @@ const Contact = () => {
               </div>
               <ul>
                 <li className='icon'>
-                  <a href="https://twitter.com/niyadda"> <AiFillTwitterCircle size={25} /> </a>
+                  <a target="_blank" href="https://twitter.com/niyadda"> <AiFillTwitterCircle size={25} /> </a>
                   
                 </li>
                 <li className='icon'>
-                  <a href="https://instagram.com/niyadda_agency"> <AiFillInstagram size={25} /> </a>
+                  <a target="_blank" href="https://instagram.com/niyadda_agency"> <AiFillInstagram size={25} /> </a>
                 </li>
                 <li className='icon'>
-                  <a href="https://linkedin.com/company/niyadda-digital-agency"> <AiFillLinkedin size={25} /> </a>
+                  <a target="_blank" href="https://linkedin.com/company/niyadda-digital-agency"> <AiFillLinkedin size={25} /> </a>
                 </li>
               </ul>
             </div>
