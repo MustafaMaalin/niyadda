@@ -63,8 +63,8 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href='/'>
-                    <BsFacebook size={25} />
+                <Link target="_blank" href="https://twitter.com/niyadda">
+                    <AiFillTwitterCircle size={25} />
                   </Link>
                 </li>
                 <li>

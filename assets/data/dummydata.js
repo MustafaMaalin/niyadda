@@ -65,10 +65,17 @@ export const testimonial = [
   },
   {
     id: 3,
-    name: "Ahmed, Multicultural Healthcare",
+    name: "Ahmed Sheikh",
     cover: "../images/multi.png",
     post: "Multicultural Healthcare",
     desc: "We are absolutely thrilled with how our website has come to life! It's truly fantastic. Our clients have been finding it incredibly easy to navigate, and the information is presented very well. We have peace of mind knowing that our services are prominently showcased, helping us attract significant traffic to our site. The entire process was seamless and the service provided was both respectful and encouraging towards bringing our vision to reality. You've truly made our vision come to life!",
+  },
+  {
+   
+    name: "Mohamed Hersi",
+    cover: "../images/ecg.png",
+    post: "Elite Care Givers",
+    desc: "I first came across Niyadda Agency and from the first interaction, it was easy to see why they had a reputation as one of the best in their craft. Professional with a consumer first mindset makes them very easy to work with. With quality at the forefront of their focus, the brochure they designed for my business was eye catching as well easy for my customers to read. Kalid is a compassionate and people friendly owner who is willing to make sure you leave satisfied with the work they have produced. I highly recommend Niyyada Agency ⭐️⭐️⭐️⭐️⭐️",
   },
   // {
   //   id: 4,
@@ -78,13 +85,6 @@ export const testimonial = [
   //   desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   // },
 
-  {
-    id: 4,
-    name: "Mohamed Hersi",
-    cover: "../images/ecg.jpg",
-    post: "Elite Care Givers",
-    desc: "I first came across Niyadda Agency and from the first interaction, it was easy to see why they had a reputation as one of the best in their craft. Professional with a consumer first mindset makes them very easy to work with. With quality at the forefront of their focus, the brochure they designed for my business was eye catching as well easy for my customers to read. Kalid is a compassionate and people friendly owner who is willing to make sure you leave satisfied with the work they have produced. I highly recommend Niyyada Agency ⭐️⭐️⭐️⭐️⭐️",
-  },
 ]
 export const showcase = [
   {
@@ -107,7 +107,7 @@ export const showcase = [
   },
   {
     id: 2,
-    title: "Moorooka Mosque",
+    title: "Moorooka Mosque ",
     catgeory: "DIGITAL MARKETING",
     cover: "../images/moor.jpg",
     content: [
@@ -118,7 +118,8 @@ export const showcase = [
         text1: "Social media, in this quest, became our chosen medium. Every event was meticulously translated into lively posts, each designed to encapsulate the emotion, fervor, and message of the gathering. Our aim was more than just digital engagement; it was about extending the ambiance of the mosque into the virtual space. Whether it was the serenity of a prayer or the joyous atmosphere of a community iftar, our digital renditions ensured that every member felt the warmth and inclusivity of Moorooka Mosque, no matter where they were.",
         text2: "Yet, we recognised the timeless appeal of tangible mementos. Thus, for those moments cherished away from screens, we crafted vibrant flyers. These weren't just pieces of paper but tactile reminders of the mosque's commitment to community, unity, and faith. Each flyer, with its design and message, echoed the very spirit that makes Moorooka Mosque a beacon for many.",
         text3: "In essence, our collaboration with Moorooka Mosque wasn't just about digital marketing or design; it was about weaving a narrative of faith, community, and tradition, ensuring that every individual, whether online or offline, felt the embrace of a community that transcends boundaries.",
-      },]
+      },],
+      href: "https://www.instagram.com/moorookamosque/",
   },
   {
     id: 3,
@@ -134,7 +135,8 @@ export const showcase = [
         text2: "Our designs then found a home on WordPress, bringing them to life for a wider audience. This transition wasn't merely about establishing an online presence; it was about crafting a portal where individuals seeking disability support could easily navigate, learn, and feel embraced by a community that truly understands their needs.",
         text3: "Beyond the screen, the Multicultural Healthcare experience needed tangible representation. Our meticulously designed business cards and brochures became more than just informational tools; they became touchpoints of trust and commitment. Every detail on them echoed the ethos of Multicultural Healthcare: inclusivity, care, and a deep-rooted commitment to serving the community.",
         text4: "In uniting the digital and physical realms, we helped encapsulate the essence of Multicultural Healthcare, solidifying their position as pioneers in offering multicultural disability support in today's world.",
-      },]
+      },],
+      href: "https://multihealthcare.com.au/",
   },
 
   // {
