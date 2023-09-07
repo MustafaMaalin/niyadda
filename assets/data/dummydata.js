@@ -178,7 +178,7 @@ export const blogdata = [
     id: 1,
     title: "The Story of Niyadda: From Twitter Friends to Business Partners",
     author: "Kalid Warsame",
-    cover: "../images/b2.jpg",
+    cover: "../images/twitter.jpeg",
     catgeory: "NIYADDA",
     date: "JULY 17, 2023",
     content: [
@@ -201,7 +201,7 @@ export const blogdata = [
     id: 2,
     title: "Design with Figma: A Comprehensive Guide",
     author: "Kalid Warsame",
-    cover: "../images/b1.webp",
+    cover: "../images/figma.png",
     catgeory: "DESIGN",
     date: "AUGUST 29, 2023",
     content: [
