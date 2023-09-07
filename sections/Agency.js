@@ -57,7 +57,7 @@ const Agency = () => {
           <div className="content flex">
             <div className="left w-40 py">
               <img
-                src="/images/s4.jpg"
+                src="/images/niyaddaa.jpg"
                 alt="Img"
                 className="round"
                 width="100%"
