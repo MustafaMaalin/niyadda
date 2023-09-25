@@ -178,7 +178,7 @@ export const showcase = [
   {
     id: 4,
     title: "Somali Millennials",
-    cover: "../images/Finished.jpg",
+    cover: "../images/finished.jpg",
     catgeory: "WEBSITES",
     content: [
       {
