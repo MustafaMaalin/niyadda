@@ -178,7 +178,7 @@ export const showcase = [
   {
     id: 4,
     title: "Somali Millennials",
-    cover: "../images/finished.jpg",
+    cover: "../images/somi.jpg",
     catgeory: "WEBSITES",
     content: [
       {
@@ -197,7 +197,7 @@ export const showcase = [
           "By seamlessly merging the digital with the tangible, we captured the essence of Somali Millennials, championing their cause and underlining their significant role in shaping the multicultural tapestry of the Netherlands.",
       },
     ],
-    href: "https://multihealthcare.com.au/",
+    href: "https://somalimillennials.com/",
   },
 
   // {
