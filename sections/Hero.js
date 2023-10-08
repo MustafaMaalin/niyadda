@@ -13,7 +13,6 @@ const Hero = () => {
   return (
     <>
       <section className='hero'>
-      <meta name="facebook-domain-verification" content="5i44kv45denfovd72psly5i44za9hf" />
         <div className='container'>
         {/* <NiyaddaBigLogo/> */}
           <h1 className='hero-title'>WE <strong className="develop"> DEVELOP</strong> YOUR INTENTIONS</h1>

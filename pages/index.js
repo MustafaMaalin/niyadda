@@ -7,6 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>Niyadda Digital Agency</title>
+        <meta name="facebook-domain-verification" content="5i44kv45denfovd72psly5i44za9hf" />
       </Head>
       <Hero />
     </>
