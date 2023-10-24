@@ -200,6 +200,29 @@ export const showcase = [
     href: "https://somalimillennials.com/",
   },
 
+  {
+    id: 5,
+    title: "Studio B34",
+    cover: "../images/studio_b34.jpg",
+    catgeory: "WEBSITES",
+    content: [
+      {
+        title: "Studio B34",
+        heading1:
+          "Studio B34: Breathing Life into Visual Transformation",
+        text0:
+          "In the world of creative arts, where every frame, every image, is a canvas for storytelling, Studio B34 stands as a testament to the power of visual transformation. When entrusted with the task of re-imagining their digital presence, our journey was imbued with the very essence of artistry.",
+        text1:
+          "Our initial step was a digital rebirth, a metamorphosis of Studio B34's online platform. We went beyond a mere website revamp, delving into the core of their artistic spirit. Figma, our digital canvas, became the space where we meticulously sculpted a new vision. The layouts, colors, and the very structure were infused with the essence of Studio B34's creative DNA.",
+        text2:
+          "As our designs breathed life into WordPress, the transformation was complete. The website now wasn't just an online space; it was an artistic portal, a testament to their prowess. Every click, every scroll, mirrored their talent in photography and their deep-rooted artistic sense.",
+        text3:
+          "This endeavor was not just about pixels and code; it was about encapsulating Studio B34's artistry in a digital realm. In the culmination of this journey, we weren't just revamping a site; we were capturing the very spirit of visual transformation.",
+        },
+    ],
+    href: "https://studiob34.nl/",
+  },
+
   // {
   //   id: 4,
   //   title: "Light Painting",
