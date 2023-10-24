@@ -177,6 +177,29 @@ export const showcase = [
 
   {
     id: 4,
+    title: "Diaspora Giving Back",
+    cover: "../images/diasporaGB.png",
+    catgeory: "WEBSITES",
+    content: [
+      {
+        title: "Diaspora Giving Back",
+        heading1:
+          "Diaspora Giving Back: Fostering Global Connections for Local Impact",
+        text0:
+          "In the age of connectivity and global interdependence, Diaspora Giving Back has emerged as a beacon of unity and collaboration. We're thrilled to unveil the digital sphere we've carefully woven for this extraordinary initiative, an online bridge that links Somali professionals from all corners of the world.",
+        text1:
+          "Diaspora Giving Back, in essence, is a virtual handshake across borders. It's not just a website; it's an international platform where the Somali diaspora comes together, sharing a vision, a mission, and an unwavering commitment to their homeland. Our digital footprint mirrors a timeless journey where expertise transcends distance and resources bridge the gap between continents.",
+        text2:
+          "Beyond the screen, the heart of Diaspora Giving Back beats with purpose. This is a mission of utilizing the vast knowledge and resources of the Somali diaspora to breathe life into meaningful projects in Somalia/Somaliland. Sustainability is our compass, and transformation is our goal.",
+        text3:
+          "With each click, each interaction, Diaspora Giving Back signifies unity in diversity. It’s an embodiment of how technology, innovation, and a shared vision can bring together a community scattered across the globe. In this digital expanse, we aren't just launching a website; we're unleashing a global force of change that starts with connectivity and transcends into tangible impact.",
+      },
+    ],
+    href: "https://diasporagivingback.com/",
+  },
+
+  {
+    id: 5,
     title: "Somali Millennials",
     cover: "../images/somi.jpg",
     catgeory: "WEBSITES",
@@ -201,7 +224,7 @@ export const showcase = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Studio B34",
     cover: "../images/studio_b34.jpg",
     catgeory: "WEBSITES",
