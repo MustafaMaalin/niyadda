@@ -68,7 +68,7 @@ export const expertise = [
     ],
   },
 ];
-// export const testimonial = [
+export const testimonial = [
 //   {
 //     id: 1,
 //     name: "Yash Kamal",
@@ -103,7 +103,7 @@ export const expertise = [
 //   //   post: "Seven Arts - marketing manager",
 //   //   desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
 //   // },
-// ];
+];
 export const showcase = [
   {
     id: 1,

@@ -45,7 +45,7 @@ const Hero = () => {
       </section>
       <Expertise />
       <Banner />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <ShowCase />
       {/* <Brand /> */}
 
