@@ -68,42 +68,42 @@ export const expertise = [
     ],
   },
 ];
-export const testimonial = [
-  {
-    id: 1,
-    name: "Yash Kamal",
-    cover: "../images/brisbane.jpg",
-    post: "President of Brisbane United Football Club",
-    desc: "Niyadda has improved Brisbane United’s Instagram presence, allowing us to express our footballing journey in a more professional manner. Their expertise with branding and social media marketing has strengthened our connection with our supporters. It’s been rewarding to work with Niyadda.",
-  },
-  {
-    id: 2,
-    name: "Moorooka Mosque Committee",
-    cover: "../images/moorooka.jpg",
-    post: "Moorooka Mosque",
-    desc: "Moorooka Mosque has been working closely with Niyadda Agency for our social media branding, content creation and social media posts and flyers. Thanks to Niyadda, we've successfully expanded our social media presence and connected with a broader audience.",
-  },
-  {
-    id: 3,
-    name: "Ahmed Sheikh",
-    cover: "../images/multi.png",
-    post: "Multicultural Healthcare",
-    desc: "We are absolutely thrilled with how our website has come to life! It's truly fantastic. Our clients have been finding it incredibly easy to navigate, and the information is presented very well. We have peace of mind knowing that our services are prominently showcased, helping us attract significant traffic to our site. The entire process was seamless and the service provided was both respectful and encouraging towards bringing our vision to reality. You've truly made our vision come to life!",
-  },
-  {
-    name: "Mohamed Hersi",
-    cover: "../images/ecg.png",
-    post: "Elite Care Givers",
-    desc: "I first came across Niyadda Agency and from the first interaction, it was easy to see why they had a reputation as one of the best in their craft. Professional with a consumer first mindset makes them very easy to work with. With quality at the forefront of their focus, the brochure they designed for my business was eye catching as well easy for my customers to read. Kalid is a compassionate and people friendly owner who is willing to make sure you leave satisfied with the work they have produced. I highly recommend Niyyada Agency ⭐️⭐️⭐️⭐️⭐️",
-  },
-  // {
-  //   id: 4,
-  //   name: "Diana Green",
-  //   cover: "../images/e4.jpg",
-  //   post: "Seven Arts - marketing manager",
-  //   desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
-  // },
-];
+// export const testimonial = [
+//   {
+//     id: 1,
+//     name: "Yash Kamal",
+//     cover: "../images/brisbane.jpg",
+//     post: "President of Brisbane United Football Club",
+//     desc: "Niyadda has improved Brisbane United’s Instagram presence, allowing us to express our footballing journey in a more professional manner. Their expertise with branding and social media marketing has strengthened our connection with our supporters. It’s been rewarding to work with Niyadda.",
+//   },
+//   {
+//     id: 2,
+//     name: "Moorooka Mosque Committee",
+//     cover: "../images/moorooka.jpg",
+//     post: "Moorooka Mosque",
+//     desc: "Moorooka Mosque has been working closely with Niyadda Agency for our social media branding, content creation and social media posts and flyers. Thanks to Niyadda, we've successfully expanded our social media presence and connected with a broader audience.",
+//   },
+//   {
+//     id: 3,
+//     name: "Ahmed Sheikh",
+//     cover: "../images/multi.png",
+//     post: "Multicultural Healthcare",
+//     desc: "We are absolutely thrilled with how our website has come to life! It's truly fantastic. Our clients have been finding it incredibly easy to navigate, and the information is presented very well. We have peace of mind knowing that our services are prominently showcased, helping us attract significant traffic to our site. The entire process was seamless and the service provided was both respectful and encouraging towards bringing our vision to reality. You've truly made our vision come to life!",
+//   },
+//   {
+//     name: "Mohamed Hersi",
+//     cover: "../images/ecg.png",
+//     post: "Elite Care Givers",
+//     desc: "I first came across Niyadda Agency and from the first interaction, it was easy to see why they had a reputation as one of the best in their craft. Professional with a consumer first mindset makes them very easy to work with. With quality at the forefront of their focus, the brochure they designed for my business was eye catching as well easy for my customers to read. Kalid is a compassionate and people friendly owner who is willing to make sure you leave satisfied with the work they have produced. I highly recommend Niyyada Agency ⭐️⭐️⭐️⭐️⭐️",
+//   },
+//   // {
+//   //   id: 4,
+//   //   name: "Diana Green",
+//   //   cover: "../images/e4.jpg",
+//   //   post: "Seven Arts - marketing manager",
+//   //   desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+//   // },
+// ];
 export const showcase = [
   {
     id: 1,
@@ -246,6 +246,78 @@ export const showcase = [
     href: "https://studiob34.nl/",
   },
 
+  {
+    id: 7,
+    title: "FDR Kozijnen",
+    cover: "../images/fdr.png",
+    catgeory: "WEBSITES",
+    content: [
+      {
+        title: "FDR Kozijnen",
+        heading1: "FDR Kozijnen: Moulding Presence with Precision",
+        text0: "In the realm of home improvements, where precision and style converge, FDR Kozijnen stands out as a leader in quality window and door solutions. Our task was to craft a digital presence that embodies the meticulous craftsmanship of FDR Kozijnen.",
+        text1: "Our journey began with a fundamental transformation using WordPress and Elementor, focusing on aligning the online experience with the elegance and robustness of their products. The new design was sculpted to mirror the company’s commitment to precision and aesthetic appeal.",
+        text2: "The transformation brought to life through Elementor allowed for an intuitive user interface, ensuring that each visitor experiences the seamless blend of functionality and design that FDR Kozijnen offers.",
+        text3: "This project was not merely about enhancing a digital footprint; it was about embedding FDR Kozijnen's ethos of precision and style into every digital interaction, making the brand synonymous with quality in the digital realm."
+      },
+    ],
+    href: "https://fdrkozijnen.nl/",
+  },
+
+  {
+    id: 8,
+    title: "Bijles is Kennis",
+    cover: "../images/bijles.png",
+    catgeory: "WEBSITES",
+    content: [
+      {
+        title: "Bijles is Kennis",
+        heading1: "Bijles is Kennis: Enlightening Paths with Knowledge",
+        text0: "In the vibrant world of education, where knowledge empowers, Bijles is Kennis represents a beacon of enlightenment. Our challenge was to encapsulate their passion for tutoring in a digital format that speaks directly to learners and educators alike.",
+        text1: "We embarked on a redesign journey using Figma and Elementor, crafted within WordPress, to create an engaging platform that reflects the dynamic and inspiring nature of their tutoring services.",
+        text2: "The resulting website is not just a portal, but a hub of educational interaction, designed to inspire and inform users, fostering a community of dedicated learners.",
+        text3: "Through this digital transformation, we have not only redesigned a website but have also revitalised the spirit of learning, making Bijles is Kennis a cornerstone for educational growth online."
+      },
+    ],
+    href: "https://www.bijlesiskennis.nl/",
+  },
+
+  {
+    id: 9,
+    title: "Miftah Al-Khayr",
+    cover: "../images/miftahalkhayr.png",
+    catgeory: "WEBSITES",
+    content: [
+      {
+        title: "Miftah Al-Khayr",
+        heading1: "Miftah Al-Khayr: Unlocking Generosity Through Design",
+        text0: "In the heart of philanthropy, where every contribution nurtures hope, Miftah Al-Khayr stands as a testament to the power of charitable giving. Our mission was to create a digital expression that resonates with the core values of their non-profit mission.",
+        text1: "Using Figma and Elementor within WordPress, we designed a platform that reflects the essence of Miftah Al-Khayr's dedication to charity and community support.",
+        text2: "The new design transcends traditional charity websites by offering a user-friendly interface that encourages engagement and fosters a community of benefactors and beneficiaries alike.",
+        text3: "This redesign is not just about aesthetics; it’s about creating a gateway that amplifies the impact of generosity, making Miftah Al-Khayr a pivotal online presence in the charity sector."
+      },
+    ],
+    href: "https://miftahalkhayr.nl/",
+  },
+
+  {
+    id: 10,
+    title: "A+ Physiotherapy",
+    cover: "../images/A+.png",
+    catgeory: "WEBSITES",
+    content: [
+      {
+        title: "A+ Physiotherapy",
+        heading1: "A+ Physiotherapy: Revitalising Care through Digital Innovation",
+        text0: "In the dynamic field of healthcare, where effective communication and accessibility are crucial, A+ Physiotherapy sets a new standard. We were tasked with creating a digital presence that not only informs but also embodies the care and expertise of their services.",
+        text1: "Our redesign process, utilising Figma and Elementor on WordPress, involved creating a cohesive brand identity, including logo design, that echoes the professional and caring ethos of A+ Physiotherapy.",
+        text2: "The website we developed serves as more than just a digital brochure; it is a portal for patient engagement and information, designed to enhance the accessibility of their services.",
+        text3: "The outcome of our efforts is a digital platform that not only looks professional but also enriches the patient's journey, making A+ Physiotherapy a leader in digital healthcare experiences."
+      },
+    ],
+    href: "https://aplusphysiotherapy.com/",
+  }
+
   // {
   //   id: 4,
   //   title: "Light Painting",
@@ -349,14 +421,36 @@ export const blogdata = [
       },
     ],
   },
-  // {
-  //   id: 3,
-  //   title: "How Kalid and Mustafa started Niyadda",
-  //   cover: "../images/b3.jpg",
-  //   catgeory: "STORYTIME",
-  //   date: "AUGUST 15, 2023",
-  //   content: "We are the creators of Niyadda Digital Agency, Mustafa and Kalid. We are young developers with high ambitions and aspirations in the digital world. After completing our internships and earning our degrees, we decided to found this agency. At Niyadda Digital Agency, the continuity of your product is always guaranteed.",
-  // },
+  {
+    id: 3,
+    title: "SEO Strategies: Keywords Optimisation",
+    author: "Kalid Warsame",
+    cover: "../images/b3.jpg",
+    catgeory: "MARKETING",
+    date: "May 01, 2024",
+    content: [
+      {
+        title:
+          "Maximising SEO Impact: Harnessing the Power of Keywords in Your Content",
+        text0:
+        "In today's digital landscape, search engine optimisation (SEO) is crucial for businesses striving to enhance their online visibility and attract more customers. Among the various elements of SEO, keywords play a pivotal role in determining a website's ranking on search engine results pages (SERPs). However, simply sprinkling keywords throughout your content is not enough to achieve optimal results. Business owners must understand the importance of strategic keyword usage and how it can positively impact their online presence.",
+        heading1: "Understanding Keywords",
+        text1:
+        "Keywords are specific words or phrases that users type into search engines when looking for information, products, or services. These terms are the bridge between what people are searching for and the content that businesses provide. In the realm of SEO, keywords serve as signals to search engines, indicating the relevance of a webpage to a particular query.",
+        heading2: "The Role of Keywords in SEO",
+        text2:
+        "Effectively utilised, keywords can improve search engine rankings, thereby increasing the likelihood that websites appear prominently when users search for related terms. This visibility can drive targeted traffic, attracting visitors who are actively seeking the products or services offered. Keywords also enhance the user experience, enabling people to find relevant information swiftly, which contributes to overall satisfaction with the website.",
+        heading3: "Best Practices for Using Keywords in Blogs and Articles",
+        text3:
+          "To effectively leverage the power of keywords, business owners should begin with thorough keyword research to identify terms that align with their business goals and resonate with their target audience. This should include a focus on long-tail keywords—longer, more specific phrases with typically lower search volumes but higher conversion rates. Keywords should be used naturally within content to avoid the pitfalls of keyword stuffing, which can negatively impact readability and search rankings. Including keywords in meta titles, descriptions, and headings can also improve content visibility in search results.",
+        text4:
+          "Creating high-quality content remains paramount; keywords should enhance, not overshadow, the quality of the information provided. Business owners should also regularly update and refresh their content, incorporating new keywords and information to maintain relevance and engagement. Monitoring content performance through analytics tools and adjusting strategies based on these insights is essential for keeping pace with the ever-evolving algorithms of search engines and changing user behaviours.",
+        heading5: "Conclusion",
+        text5:
+          "Strategically incorporating keywords into blogs and articles is essential for maximising SEO impact and driving organic traffic to a website. By understanding the crucial role of keywords and adhering to best practices in their use, business owners can not only enhance their online visibility but also attract more qualified leads, ultimately fostering greater success in the competitive digital marketplace.",
+        },
+    ],
+  },
 ];
 export const teamdata = [
   {
