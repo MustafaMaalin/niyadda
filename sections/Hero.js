@@ -18,9 +18,9 @@ const Hero = () => {
           <h1 className='hero-title'>WE <strong className="develop"> DEVELOP</strong> YOUR INTENTIONS</h1>
 
           <div className='sub-heading'>
-            <TitleSm title='WEBSITES' /> <span className="title">.</span>
-            <TitleSm title='BRANDING' /> <span className="title">.</span>
-            <TitleSm title='DIGITAL MARKETING' />
+            <TitleSm title='websites' /> <span className="title">.</span>
+            <TitleSm title='branding' /> <span className="title">.</span>
+            <TitleSm title='digital marketing' />
           </div>
         </div>
       </section>
