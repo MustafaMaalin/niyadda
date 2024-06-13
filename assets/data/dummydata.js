@@ -95,7 +95,8 @@ export const testimonial = [
 ];
 export const showcase = [
   {
-    id: 1,
+    id: "Brisbane-United-Football-Club",
+    sortid: 1,
     title: "Brisbane United Football Club",
     cover: "../images/wall.jpg",
     catgeory: "DIGITAL MARKETING",
@@ -118,7 +119,8 @@ export const showcase = [
     href: "https://www.instagram.com/brisutdfc/",
   },
   {
-    id: 2,
+    id: "Moorooka-Mosque",
+    sortid: 2,
     title: "Moorooka Mosque ",
     catgeory: "DIGITAL MARKETING",
     cover: "../images/moor.jpg",
@@ -140,7 +142,8 @@ export const showcase = [
     href: "https://www.instagram.com/moorookamosque/",
   },
   {
-    id: 3,
+    id: "Multicultural-Healthcare",
+    sortid: 3,
     title: "Multicultural Healthcare",
     cover: "../images/multicult.svg",
     catgeory: "WEBSITES",
@@ -165,7 +168,8 @@ export const showcase = [
   },
 
   {
-    id: 4,
+    id: "Diaspora-Giving-Back",
+    sortid: 4,
     title: "Diaspora Giving Back",
     cover: "../images/diasporaGB.svg",
     catgeory: "WEBSITES",
@@ -188,7 +192,8 @@ export const showcase = [
   },
 
   {
-    id: 5,
+    id: "Stichting-Somi",
+    sortid: 5,
     title: "Stichting Somi",
     cover: "../images/somi.svg",
     catgeory: "WEBSITES",
@@ -213,7 +218,8 @@ export const showcase = [
   },
 
   {
-    id: 6,
+    id: "StudioB34",
+    sortid: 6,
     title: "Studio B34",
     cover: "../images/studio_b34.svg",
     catgeory: "WEBSITES",
@@ -236,7 +242,8 @@ export const showcase = [
   },
 
   {
-    id: 7,
+    id: "FDRkozijnen",
+    sortid: 7,
     title: "FDR Kozijnen",
     cover: "../images/fdr.svg",
     catgeory: "WEBSITES",
@@ -254,7 +261,8 @@ export const showcase = [
   },
 
   {
-    id: 8,
+    id: "bijles-is-kennis",
+    sortid: 8,
     title: "Bijles is Kennis",
     cover: "../images/bijles.svg",
     catgeory: "WEBSITES",
@@ -272,7 +280,8 @@ export const showcase = [
   },
 
   {
-    id: 9,
+    id: "Miftah-al-khayr",
+    sortid: 9,
     title: "Miftah Al-Khayr",
     cover: "../images/miftahalkhayr.svg",
     catgeory: "WEBSITES",
@@ -290,7 +299,8 @@ export const showcase = [
   },
 
   {
-    id: 10,
+    id: "aplusphysiotherapy",
+    sortid: 10,
     title: "A+ Physiotherapy",
     cover: "../images/A+.svg",
     catgeory: "WEBSITES",

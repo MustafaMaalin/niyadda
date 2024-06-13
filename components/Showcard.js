@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 const Showcard = () => {
   // Sort the showcase data by ID in descending order
-  const sortedShowcase = showcase.sort((a, b) => b.id - a.id);
+  const sortedShowcase = showcase.sort((a, b) => b.sortid - a.sortid);
 
   const [visibleItems, setVisibleItems] = useState(4); // Initial state to show 4 items
 
