@@ -153,7 +153,7 @@ export const showcase = [
   {
     id: 3,
     title: "Multicultural Healthcare",
-    cover: "../images/multicult.jpg",
+    cover: "../images/multicult.svg",
     catgeory: "WEBSITES",
     content: [
       {
@@ -178,7 +178,7 @@ export const showcase = [
   {
     id: 4,
     title: "Diaspora Giving Back",
-    cover: "../images/diasporaGB.png",
+    cover: "../images/diasporaGB.svg",
     catgeory: "WEBSITES",
     content: [
       {
@@ -200,24 +200,24 @@ export const showcase = [
 
   {
     id: 5,
-    title: "Somali Millennials",
-    cover: "../images/somi.jpg",
+    title: "Stichting Somi",
+    cover: "../images/somi.svg",
     catgeory: "WEBSITES",
     content: [
       {
-        title: "Somali Millennials",
+        title: "Stichting Somi",
         heading1:
           "Bridging Generations: Digital Empowerment for Somali Youths in the Netherlands",
         text0:
-          "Somali Millennials stands as a testament to the spirit of youthful resilience and adaptability in a multicultural European landscape. Our aim was to create a digital platform that embodies the aspirations, history, and vibrant potential of Somali youth. This vision sparked our collaboration.",
+          "Stichting Somi stands as a testament to the spirit of youthful resilience and adaptability in a multicultural European landscape. Our aim was to create a digital platform that embodies the aspirations, history, and vibrant potential of Somali youth. This vision sparked our collaboration.",
         text1:
-          "Our creative journey commenced on Figma, the canvas where Somali Millennials began to crystallize. A tapestry of fresh layouts meshed with intuitive navigation encapsulated the collective's dedication to fostering a sense of belonging and empowerment for Somali youths in the Netherlands.",
+          "Our creative journey commenced on Figma, the canvas where Stichting Somi began to crystallize. A tapestry of fresh layouts meshed with intuitive navigation encapsulated the collective's dedication to fostering a sense of belonging and empowerment for Somali youths in the Netherlands.",
         text2:
           "Transitioning our designs to WordPress, we aimed to reach a broader audience. But this wasn't just about digital representation; it was about carving a space where Somali millennials could engage, express, and collaborate in a setting attuned to their experiences and aspirations.",
         text3:
-          "Beyond pixels and screens, the Somali Millennials ethos sought tangible forms. Our diligently crafted business cards and promotional materials weren't merely channels of information but touchstones that resonated with the values and dynamism of a generation poised to make its mark.",
+          "Beyond pixels and screens, the Stichting Somi ethos sought tangible forms. Our diligently crafted business cards and promotional materials weren't merely channels of information but touchstones that resonated with the values and dynamism of a generation poised to make its mark.",
         text4:
-          "By seamlessly merging the digital with the tangible, we captured the essence of Somali Millennials, championing their cause and underlining their significant role in shaping the multicultural tapestry of the Netherlands.",
+          "By seamlessly merging the digital with the tangible, we captured the essence of Stichting Somi, championing their cause and underlining their significant role in shaping the multicultural tapestry of the Netherlands.",
       },
     ],
     href: "https://somalimillennials.com/",
@@ -226,7 +226,7 @@ export const showcase = [
   {
     id: 6,
     title: "Studio B34",
-    cover: "../images/studio_b34.jpg",
+    cover: "../images/studio_b34.svg",
     catgeory: "WEBSITES",
     content: [
       {
@@ -249,7 +249,7 @@ export const showcase = [
   {
     id: 7,
     title: "FDR Kozijnen",
-    cover: "../images/fdr.png",
+    cover: "../images/fdr.svg",
     catgeory: "WEBSITES",
     content: [
       {
@@ -267,7 +267,7 @@ export const showcase = [
   {
     id: 8,
     title: "Bijles is Kennis",
-    cover: "../images/bijles.png",
+    cover: "../images/bijles.svg",
     catgeory: "WEBSITES",
     content: [
       {
@@ -285,7 +285,7 @@ export const showcase = [
   {
     id: 9,
     title: "Miftah Al-Khayr",
-    cover: "../images/miftahalkhayr.png",
+    cover: "../images/miftahalkhayr.svg",
     catgeory: "WEBSITES",
     content: [
       {
@@ -303,7 +303,7 @@ export const showcase = [
   {
     id: 10,
     title: "A+ Physiotherapy",
-    cover: "../images/A+.png",
+    cover: "../images/A+.svg",
     catgeory: "WEBSITES",
     content: [
       {
