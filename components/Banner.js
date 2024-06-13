@@ -8,8 +8,8 @@ const Banner = () => {
       <section className='banner'>
         <div className='container'>
           <div>
-            <p className="titlebanner"> We are looking forward to start a new project </p>  <br />
-            <TitleLogo className="titlebanner2"title='Lets take your business to the next level!' />
+            <p className="titlebanner"> Elevate your brand <strong>now</strong> </p>  <br />
+            <TitleLogo className="titlebanner2"title='Partner with us to take your business to the next level with exceptional quality and value.' />
           </div>
           <div className="br-needed">
             

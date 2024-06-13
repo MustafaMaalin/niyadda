@@ -48,17 +48,6 @@ export const expertise = [
   },
   {
     id: 3,
-    title: "E-Commerce",
-    cover: "../images/e3.jpg",
-    desc: [
-      { text: "E-Commerce website design" },
-      { text: "WooCommerce" },
-      { text: "Content management" },
-      { text: "Hosting" },
-    ],
-  },
-  {
-    id: 4,
     title: "Branding & Creative Services",
     cover: "../images/e4.jpg",
     desc: [

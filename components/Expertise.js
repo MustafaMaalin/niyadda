@@ -11,10 +11,10 @@ const Expertise = () => {
           <div className='heading-title'>
             <Title title='Our expertise' />
             <p>
-            Rooted in innovation and agility, Niyadda excels at blending the latest technology with fresh creative insights. Our expertise lies in sculpting standout digital solutions that captivate and convert in today's dynamic online landscape.
+            We combine technology and creativity to create standout digital solutions that captivate and translate into desired results.
             </p>
           </div>
-          <div className='hero-content grid-4'>
+          <div className='hero-content grid-3'>
             {expertise.map((item) => (
               <Card data={item} key={item.id} path='#' caption='' />
             ))}
