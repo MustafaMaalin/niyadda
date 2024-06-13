@@ -73,6 +73,50 @@
   color: $white;
   }
 }
+.load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.button-loadmore {
+  text-transform: capitalize;
+  color: white; /* Replace $white with the actual color value */
+  padding: 13px 40px;
+  background: linear-gradient(to right, #f6d365, #fda085); /* Replace $gradient2 with the actual gradient value */
+  font-size: 16px; /* Replace $md with the actual font size value */
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Replace $shadow-md with the actual shadow value */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.2s;
+}
+
+.button-loadmore:hover {
+  background-color: green; /* Replace $green with the actual color value */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Replace $shadow-md with the actual shadow value */
+  color: white; /* Replace $white with the actual color value */
+}
+
+.button-loadmore:active {
+  transform: scale(0.95);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.showcase .card {
+  animation: fadeIn 0.5s ease-in-out;
+}
 .secondary-button {
   background-color: #171e20;
   box-shadow: none;
