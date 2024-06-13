@@ -32,8 +32,19 @@
   -moz-text-fill-color: transparent;
 }
 .titlebanner {
-  font-size: $xl-5;
+  font-size: $xl-6;
   font-weight: 500;
+  background: white;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.titlebanner2 {
+  font-size: $xl-3;
+  font-weight: 100;
   background: white;
   background-size: 100%;
   -webkit-background-clip: text;

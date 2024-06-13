@@ -28,9 +28,6 @@ const Hero = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title="We're not just a digital agency; we're your strategic partner in propelling your business towards unparalleled growth" />
-            <p>
-            Beyond pixels and code, we dive deep into your vision. As Niyadda, we're your strategic compass in the vast digital sea, charting paths to unparalleled growth. Your success is our story; let's co-author a digital masterpiece.
-            </p>
             </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
