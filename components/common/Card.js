@@ -1,9 +1,11 @@
 import { TitleSm } from "./Title";
 import { HiOutlineArrowRight } from "react-icons/hi";
 import { useRouter } from "next/router";
+import { slugify } from "assets/utils/slugify"; // Adjust the import path as needed
 
 export const Card = ({ data, caption, show, path }) => {
   const router = useRouter();
+  const slug = slugify(data.title);
 
   return (
     <div className='card'>
@@ -14,8 +16,8 @@ export const Card = ({ data, caption, show, path }) => {
         <div
           className='title-link'
           onClick={() => {
-            if (path && data.id) {
-              router.push(`${path}/${data.id}`);
+            if (path && slug) {
+              router.push(`${path}/${slug}`);
             }
           }}
           style={{ cursor: path ? 'pointer' : 'default' }}
@@ -25,8 +27,8 @@ export const Card = ({ data, caption, show, path }) => {
         {caption && (
           <div
             onClick={() => {
-              if (path && data.id) {
-                router.push(`${path}/${data.id}`);
+              if (path && slug) {
+                router.push(`${path}/${slug}`);
               }
             }}
             style={{ cursor: path ? 'pointer' : 'default' }}
