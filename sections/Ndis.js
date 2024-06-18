@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import Title, { TitleSm } from "@/components/common/Title";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Banner from "@/components/Banner"
+
 
 
 const Ndis = () => {
@@ -12,14 +14,23 @@ const Ndis = () => {
       slidesToScroll: 1,
       autoplay: true,
       speed: 5000,
-      cssEase: "linear"
+      cssEase: "linear",
+      responsive: [
+        {
+          breakpoint: 780,
+          settings: {
+            slidesToShow: 2, // Number of slides to show for screens 780px or less
+            slidesToScroll: 1,
+          },
+        },
+      ],
     };
   
     const logos = [
-      "../images/e1.jpg",
-      "../images/e2.jpg",
-      "../images/e3.jpg",
-      "../images/e4.jpg"
+      "../images/oaclogo.png",
+      "../images/pclogo.png",
+      "../images/ecglogo.png",
+      "../images/mchclogo.png"
     ];
   return (
     <>
@@ -32,11 +43,33 @@ const Ndis = () => {
           </div>
           <div className="content flex1">
             <div className='container'>
+                <div>
+                  <TitleSm title='Join the growing list of NDIS businesses that trust us' className='title-bg' />
+                </div>
+                <div className='carousel-container'>
+                <br />
+                <br />
+                <br />
+                <Slider {...settings}>
+                  {logos.map((logo, index) => (
+                    <div key={index} className='logo-slide'>
+                      <img src={logo} alt={`Logo ${index + 1}`} className='logo-image' />
+                    </div>
+                  ))}
+                </Slider>
+              </div>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
             <div className="grid-3">
                   <div className="box">
-                    <h1 className="indigo">5 <span style={{ fontSize: '0.35em' }}>years</span></h1>
+                    <h1 className="indigo">5+ <span style={{ fontSize: '0.35em' }}>years</span></h1>
                     <br />
-                    <h3>NDIS experience</h3>
+                    <h3>Industry experience</h3>
                   </div>
                   <div className="box">
                     <h1 className="indigo">4+</h1>
@@ -79,34 +112,18 @@ const Ndis = () => {
                   </div>
                 </div>
               </div>
+
               <div>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-                <div>
-                  <TitleSm title='Join the growing list of NDIS businesses that trust us' className='title-bg' />
-                </div>
-                <div className='carousel-container'>
-                <br />
-                <br />
-                <br />
-                <Slider {...settings}>
-                  {logos.map((logo, index) => (
-                    <div key={index} className='logo-slide'>
-                      <img src={logo} alt={`Logo ${index + 1}`} className='logo-image' />
-                    </div>
-                  ))}
-                </Slider>
-              </div>
+
+                
               </div>
             </div>
           </div>
         </div>
       </section>
+      <Banner />
+      
+
     </>
   );
 };

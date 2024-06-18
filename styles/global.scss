@@ -64,7 +64,7 @@
   .banner {
     margin-top: $xll-3;
     .container {
-      border-radius: 50px 0 50px 0;
+      border-radius: 10px 10px 10px 10px;
       padding: $xll;
       background: rgb(192, 90, 255);
       background: $gradient2;
@@ -368,8 +368,8 @@
       align-items: center;
     }
     .logo-image {
-        border-radius: 50%; /* Make the image circular */
-          border: 5px solid #3f51b5; /* Add indigo border */
+        // border-radius: 50%; /* Make the image circular */
+        //   border: 5px solid #3f51b5; /* Add indigo border */
           width: 200px;
           height: 200px;
           object-fit: cover; /* Ensure the image fits within the circular container */
@@ -602,4 +602,54 @@
 .hero{
   padding: 250px 0 35px;
 }
+}
+
+@media (max-width: 1200px) {
+  .container {
+      max-width: 1000px;
+  }
+  .logo-image {
+      width: 80px;
+      height: 80px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+      max-width: 800px;
+  }
+  .logo-image {
+      width: 60px;
+      height: 60px;
+  }
+  .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      max-width: 600px;
+  }
+  .logo-image {
+      width: 50px;
+      height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+      max-width: 100% !important;
+      padding: 0 10px !important;
+  }
+  .logo-image {
+      width: 120px !important;
+      height: 120px !important;
+  }
+  .heading-title {
+      margin-bottom: 20px !important;
+  }
+  .title-bg {
+      padding: 10px !important;
+  }
 }

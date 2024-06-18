@@ -13,7 +13,7 @@ const Banner = () => {
           </div>
           <div className="br-needed">
             
-          <Link href='/contact' className='button-primary'>Connect with Us Today!</Link>
+          <Link href='/contact' className='button-primary'>Contact Us!</Link>
           </div>
         </div>
       </section>
