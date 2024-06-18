@@ -68,19 +68,16 @@ const Agency = () => {
               <TitleSm title="Our mission" />
               <br />
               <p className="misson-p">
-                Our goal is to make affordable, clean and beautiful websites,
-                applications and corporate branding. We thoroughly go through
-                proven strategies and procedures to ensure that your product
-                stands out to the greatest extent. Inspiration by modern designs
-                and our eagerness to learn new ways of development creates an
-                interactive interplay in which functionality and originality are
-                integrated naturally to form a strong and complete concept.
+                At Niyadda Digital Agency, we blend creativity and integrity to deliver exceptional value and customer satisfaction. Rooted in our Somali heritage, we build fulfilling partnerships that create long-lasting positive experiences. We strive for fairness, never over-promise, and always aim to exceed expectations with our modern, professional approach.
               </p>
+              <br/>
+             
             </div>
+            
           </div>
         </div>
       </section>
-
+      
       {/* <Brand /> */}
       <Testimonial />
       <Banner />
