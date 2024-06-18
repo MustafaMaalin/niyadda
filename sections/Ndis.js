@@ -89,25 +89,25 @@ const Ndis = () => {
               <div className="grid-container">
                 <div className="card">
                   <div className="card-content">
-                  <Title title="Visibility" className='title-bg'/>
+                  <Title title="Visibility" className='title-bg2'/>
                     <p className="details">We enhance your presence in the digital realm, making sure you stand out from the crowd.</p>
                   </div>
                 </div>
                 <div className="card">
                   <div className="card-content">
-                    <Title title="Identity" className='title-bg'/>
+                    <Title title="Identity" className='title-bg2'/>
                     <p className="details">Our team brings a wealth of industry knowledge to ensure your strategies are spot on.</p>
                   </div>
                 </div>
                 <div className="card">
                   <div className="card-content">
-                  <Title title="Content" className='title-bg'/>
+                  <Title title="Content" className='title-bg2'/>
                     <p className="details">We manage all aspects of your marketing to deliver cohesive and effective campaigns.</p>
                   </div>
                 </div>
                 <div className="card">
                   <div className="card-content">
-                  <Title title="Trust" className='title-bg'/>
+                  <Title title="Trust" className='title-bg2'/>
                     <p className="details">We believe in building long-term partnerships based on trust and mutual success.</p>
                   </div>
                 </div>
