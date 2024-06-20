@@ -25,7 +25,7 @@ const Hero = () => {
       {
         breakpoint: 780,
         settings: {
-          slidesToShow: 2, // Number of slides to show for screens 780px or less
+          slidesToShow: 1, // Number of slides to show for screens 780px or less
           slidesToScroll: 1,
         },
       },
@@ -42,18 +42,19 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
         {/* <NiyaddaBigLogo/> */}
-          <h1 className='hero-title'>WE <strong className="develop"> DEVELOP</strong> YOUR INTENTIONS</h1>
+        <h1 className='hero-title'>Making digital presence feel&nbsp;<strong className="develop">human</strong></h1>
 
           <div className='sub-heading'>
-            <TitleSm title='websites' /> <span className="title">.</span>
-            <TitleSm title='marketing' /> <span className="title">.</span>
-            <TitleSm title='branding' />
+            <TitleSm title='Niyadda Digital is a partner for busy business owners.' />
+          </div>
+          <div className='sub-heading'>
+            <TitleSm title='We take care of making your online brand heartfelt so you can focus on your business.' />
           </div>
         </div>
       </section>
       <section className='hero-sec'>
         <div className='container'>
-          <div className='heading-title'>
+          {/* <div className='heading-title'>
             <Title title="We're not just a digital agency; we're your strategic partner in propelling your business towards unparalleled growth" />
             </div>
           <div className='hero-content grid-4'>
@@ -64,20 +65,19 @@ const Hero = () => {
                 <h3>{item.title}</h3>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
       <Expertise />
       <section className='ndis bg-top'>
-      <div className="content flex1">
-            <div className='container'>
+      <div className='content flex1'>
+                <div className='container'>
                 <div>
-                  <TitleSm title='Join the growing list of NDIS businesses that trust us' className='title-bg' />
+                  <Title title='Join the growing list of businesses that trust our expertise' />
                 </div>
-                <div className='carousel-container'>
-                <br />
-                <br />
-                <br />
+                </div>
+              </div>
+              <div>
                 <Slider {...settings}>
                   {logos.map((logo, index) => (
                     <div key={index} className='logo-slide'>
@@ -86,18 +86,18 @@ const Hero = () => {
                   ))}
                 </Slider>
               </div>
-              </div>
-              </div>
-              </section>
-      <Banner />
-      <Testimonial />
-      <ShowCase />
-      {/* <Brand /> */}
 
-      <div className='text-center'>
-        <Title title='Latest news & articles' />
-      </div>
-      <BlogCard />
+              </section>
+              <div className='content flex1'>
+                <div className='container'>
+                <div>
+                  <Title title='Our work' />
+                </div>
+                </div>
+              </div>
+              
+      <ShowCase />
+      <Banner />
     </>
   )
 }

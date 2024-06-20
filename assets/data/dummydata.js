@@ -25,7 +25,7 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Web Development",
+    title: "Branding",
     cover: "../images/e1.jpg",
     desc: [
       { text: "Web design" },
@@ -37,7 +37,7 @@ export const expertise = [
   },
   {
     id: 2,
-    title: "Digital Marketing",
+    title: "Social Media",
     cover: "../images/e2.jpg",
     desc: [
       { text: "Social media marketing" },
@@ -48,7 +48,7 @@ export const expertise = [
   },
   {
     id: 3,
-    title: "Branding",
+    title: "Websites",
     cover: "../images/e3.jpg",
     desc: [
       { text: "Visual identity" },
@@ -56,16 +56,6 @@ export const expertise = [
       { text: "Custom illustrations" },
     ],
   },
-  {
-    id: 4,
-    title: "NDIS",
-    cover: "../images/e4.jpg",
-    desc: [
-      { text: "Web Development" },
-      { text: "Digital Marketing" },
-      { text: "Branding" },
-    ],
-  }
 ];
 export const testimonial = [
 //   {

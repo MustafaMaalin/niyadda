@@ -14,7 +14,7 @@ const Expertise = () => {
             We combine technology and creativity to create standout digital solutions that captivate and translate into desired results.
             </p>
           </div>
-          <div className='hero-content grid-2'>
+          <div className='hero-content grid-3'>
             {expertise.map((item) => (
               <Card data={item} key={item.id} path='#' caption='' />
             ))}

@@ -14,7 +14,7 @@ const Showcard = () => {
 
   return (
     <>
-      <div className="container showcase grid-2 py">
+      <div className="container showcase grid-4 py">
         {sortedShowcase.slice(0, visibleItems).map((item) => (
           <Card data={item} key={item.id} path="cases" />
         ))}

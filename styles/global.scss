@@ -1,6 +1,6 @@
 /*  Hero Section */
 .hero {
-    text-align: center;
+    text-align: left;
     padding: $xl-6 0;
     padding-top: $xll-3;
     height: 90vh !important;
@@ -27,7 +27,7 @@
     }
     .sub-heading {
       display: flex;
-      justify-content: center;
+      justify-content: left;
       .titleSm {
         margin: 0 $xl-1;
       }
