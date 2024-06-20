@@ -13,31 +13,10 @@ import "slick-carousel/slick/slick-theme.css";
 import { useState } from "react";
 import Slider from "react-slick";
 import ScrollToTopButton from "@/components/ScrollToTopButton"; // Adjust the path as needed
+import Link from "next/link";
 
 const Hero = () => {
-  const settings = {
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 5000,
-    cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 780,
-        settings: {
-          slidesToShow: 1, // Number of slides to show for screens 780px or less
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-  const logos = [
-    "../images/oaclogo.png",
-    "../images/pclogo.png",
-    "../images/ecglogo.png",
-    "../images/mchclogo.png"
-  ];
+
   return (
     <>
       <section className='hero'>
@@ -51,6 +30,10 @@ const Hero = () => {
           <div className='sub-heading'>
             <TitleSm title='We take care of making your online brand heartfelt so you can focus on your business.' />
           </div>
+          <br/>
+          <br/>
+          <br/>
+          <Link href='/contact' className='button-started'>Get Started</Link>
         </div>
       </section>
       <section className='hero-sec'>
@@ -70,30 +53,7 @@ const Hero = () => {
         </div>
       </section>
       <Expertise />
-      <section className='ndis bg-top'>
-      <div className='content flex1'>
-                <div className='container'>
-                <div>
-                  <Title title='Join the growing list of businesses that trust our expertise' />
-                </div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                </div>
-              </div>
-              <div>
-                <Slider {...settings}>
-                  {logos.map((logo, index) => (
-                    <div key={index} className='logo-slide'>
-                      <img src={logo} alt={`Logo ${index + 1}`} className='logo-image' />
-                    </div>
-                  ))}
-                </Slider>
-              </div>
-
-              </section>
+      <Brand/>
               <div className='content flex1'>
                 <div className='container'>
                 <div>

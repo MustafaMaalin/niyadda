@@ -29,7 +29,7 @@
       display: flex;
       justify-content: left;
       .titleSm {
-        margin: 0 $xl-1;
+        // margin: 0 $xl-1;
       }
       span {
         font-size: $xll;
@@ -245,9 +245,9 @@
       margin-top: 40px;
     }
     .card {
-      background: #f9f9f9;
+      // background: #f9f9f9;
       border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       transition: transform 0.3s, background-color 0.3s;
       cursor: pointer;

@@ -50,13 +50,13 @@ const Ndis = () => {
                 <br />
                 <br />
                 <br />
-                <Slider {...settings}>
+                {/* <Slider {...settings}>
                   {logos.map((logo, index) => (
                     <div key={index} className='logo-slide'>
                       <img src={logo} alt={`Logo ${index + 1}`} className='logo-image' />
                     </div>
                   ))}
-                </Slider>
+                </Slider> */}
               </div>
               <br />
               <br />

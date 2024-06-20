@@ -74,60 +74,17 @@ const Agency = () => {
             </div>
             
           </div>
-          <div className='heading-title'>
-                <TitleSm title='Our Values'/>
-              </div>
-              <div className="grid-container">
-                <div className="card">
-                  <div className="card-content">
-                  <Title title="Innovation" className='title-bg2'/>
-                    <p className="details">Creativity and integrity driven.</p>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-content">
-                    <Title title="Dedication" className='title-bg2'/>
-                    <p className="details">Customer satisfaction focused.</p>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-content">
-                  <Title title="Trust" className='title-bg2'/>
-                    <p className="details">Fair promises, proven reliability.</p>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-content">
-                  <Title title="Relationships" className='title-bg2'/>
-                    <p className="details">Fostering long-term mutually beneficial relationships.</p>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-content">
-                  <Title title="Excellence" className='title-bg2'/>
-                    <p className="details">Defined by professionalism and over-delivery.</p>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-content">
-                  <Title title="Value" className='title-bg2'/>
-                    <p className="details">Delivering value beyond cost, always.</p>
-                  </div>
-                </div>
-                </div>
+         
         </div>
 
             
               
       </section>
       
-      {/* <Brand /> */}
-      <Testimonial />
+      <Brand />
+     
       <Banner />
-      <br />
-      <br />
-      <br />
-      <br />
+      
     </>
   );
 };

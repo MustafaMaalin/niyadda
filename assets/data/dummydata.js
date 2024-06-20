@@ -327,27 +327,38 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
-    cover: "../images/l1.svg",
+    cover: "../images/A+.svg",
   },
   {
     id: 2,
-    cover: "../images/l2.svg",
+    cover: "../images/miftahalkhayr.svg",
   },
   {
     id: 3,
-    cover: "../images/l3.svg",
+    cover: "../images/fdr.svg",
   },
   {
     id: 4,
-    cover: "../images/l4.svg",
+    cover: "../images/miftahalkhayr.svg",
   },
   {
     id: 5,
-    cover: "../images/l5.svg",
+    cover: "../images/miftahalkhayr.svg",
   },
   {
     id: 6,
-    cover: "../images/l6.svg",
+    cover: "../images/miftahalkhayr.svg",
+    
+    id: 7,
+    cover: "../images/miftahalkhayr.svg",
+
+    id: 8,
+    cover: "../images/miftahalkhayr.svg",
+
+    id: 9,
+    cover: "../images/miftahalkhayr.svg",
+
+
   },
 ];
 export const blogdata = [
