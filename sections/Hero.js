@@ -75,6 +75,11 @@ const Hero = () => {
                 <div>
                   <Title title='Join the growing list of businesses that trust our expertise' />
                 </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 </div>
               </div>
               <div>
@@ -92,6 +97,8 @@ const Hero = () => {
                 <div className='container'>
                 <div>
                   <Title title='Our work' />
+                  <br/>
+                  <br/>
                 </div>
                 </div>
               </div>

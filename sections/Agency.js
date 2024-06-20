@@ -67,9 +67,8 @@ const Agency = () => {
             <div className="right w-60 ml">
               <TitleSm title="Our mission" />
               <br />
-              <p className="misson-p">
-                At Niyadda Digital Agency, we blend creativity and integrity to deliver exceptional value and customer satisfaction. Rooted in our Somali heritage, we build fulfilling partnerships that create long-lasting positive experiences. We strive for fairness, never over-promise, and always aim to exceed expectations with our modern, professional approach.
-              </p>
+              <h1 className="misson-p">
+              “We beautifully digitise business owners’ genuine intentions.”              </h1>
               <br/>
              
             </div>
