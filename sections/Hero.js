@@ -1,17 +1,18 @@
-import { home } from "@/assets/data/dummydata"
-import Banner from "@/components/Banner"
-import Expertise from "@/components/Expertise"
-import ShowCase from "@/components/Showcard"
-import Testimonial from "@/components/Testimonial"
-import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
-import { BlogCard, Brand } from "@/components/router"
-import React from "react"
-import NiyaddaLogo from "@/components/Logo"
-import NiyaddaBigLogo from "@/components/BigLogo"
+import { home } from "@/assets/data/dummydata";
+import Banner from "@/components/Banner";
+import Expertise from "@/components/Expertise";
+import ShowCase from "@/components/Showcard";
+import Testimonial from "@/components/Testimonial";
+import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
+import { BlogCard, Brand } from "@/components/router";
+import React from "react";
+import NiyaddaLogo from "@/components/Logo";
+import NiyaddaBigLogo from "@/components/BigLogo";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState } from "react";
 import Slider from "react-slick";
+import ScrollToTopButton from "@/components/ScrollToTopButton"; // Adjust the path as needed
 
 const Hero = () => {
   const settings = {
@@ -105,8 +106,9 @@ const Hero = () => {
               
       <ShowCase />
       <Banner />
+      <ScrollToTopButton />
     </>
   )
 }
 
-export default Hero
+export default Hero;
