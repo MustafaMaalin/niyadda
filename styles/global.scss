@@ -53,6 +53,39 @@
     }
   }
   
+  //vision
+  .vision {
+    text-align: right;
+    .vision .container {
+      display: inline-block;
+      text-align: right;
+    }
+    
+    .vision-title {
+      font-size: 3em; /* Adjust the size as needed */
+      margin: 0;
+    }
+    
+    .sub-heading {
+      margin: 0;
+      .titleSm {
+        margin: 0 $xl-1;
+      }
+      span {
+        font-size: 1em;
+        line-height: 0;
+        color: $green;
+      }
+    }
+    
+    .title-sm {
+      display: inline-block;
+      text-align: right;
+    }
+  }
+  
+  
+  
   // expertise
   .expertise {
     .card-img {

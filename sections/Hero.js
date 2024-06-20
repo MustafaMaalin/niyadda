@@ -36,6 +36,18 @@ const Hero = () => {
           <Link href='/contact' className='button-started'>Get Started</Link>
         </div>
       </section>
+      <br/>
+      <br/>
+      <section className='vision'>
+        <div className='container'>
+          <h1 className="vision-title">
+            Intentions made real, for everyone.
+          </h1>
+          <div className='sub-heading'>
+            <TitleSm title='We envision a future where people can feel what you intend, online.' />
+          </div>
+          </div>
+        </section>
       <section className='hero-sec'>
         <div className='container'>
           {/* <div className='heading-title'>
