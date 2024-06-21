@@ -36,21 +36,22 @@ const Hero = () => {
           <Link href='/contact' className='button-started'>Get Started</Link>
         </div>
       </section>
+      <Brand/>
       <br/>
       <br/>
       <section className='vision'>
         <div className='container'>
           <h1 className="vision-title">
-            Intentions made real, for everyone.
+            Intentions made <strong className="develop">real</strong>, for everyone.
           </h1>
           <div className='sub-heading'>
             <TitleSm title='We envision a future where people can feel what you intend, online.' />
           </div>
           </div>
         </section>
-      <section className='hero-sec'>
+      {/* <section className='hero-sec'>
         <div className='container'>
-          {/* <div className='heading-title'>
+          <div className='heading-title'>
             <Title title="We're not just a digital agency; we're your strategic partner in propelling your business towards unparalleled growth" />
             </div>
           <div className='hero-content grid-4'>
@@ -61,17 +62,15 @@ const Hero = () => {
                 <h3>{item.title}</h3>
               </div>
             ))}
-          </div> */}
+          </div>
         </div>
-      </section>
+      </section> */}
       <Expertise />
-      <Brand/>
+     
               <div className='content flex1'>
                 <div className='container'>
                 <div>
                   <Title title='Our work' />
-                  <br/>
-                  <br/>
                 </div>
                 </div>
               </div>

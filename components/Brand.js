@@ -8,8 +8,8 @@ import "slick-carousel/slick/slick-theme.css";
 const Brand = () => {
   const settings = {
     infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 2,
+    slidesToShow: 4,
+    slidesToScroll: 1,
     autoplay: true,
     speed: 6000,
     cssEase: "linear",
@@ -17,7 +17,7 @@ const Brand = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
@@ -42,13 +42,13 @@ const Brand = () => {
     <>
       <section className='brand'>
         <div className='container'>
-          <div className='heading-title'>
-            <Title title='WE ARE PROUD TO WORK WITH THESE COMPANIES' />
+          <div className='heading-title2'>
+            <Title title='Join the growing list of people that trust our expertise.' />
           </div>
           <Slider {...settings} className='brand-content py'>
             {brand.map((item) => (
               <div className='images' key={item.id}>
-                <img src={item.cover} alt={item.id} width='100%' height='100%' />
+                <img src={item.cover} alt={item.id} width='70%' height='70%' />
               </div>
             ))}
           </Slider>

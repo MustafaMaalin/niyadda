@@ -8,12 +8,12 @@ const Banner = () => {
       <section className='banner'>
         <div className='container'>
           <div>
-            <p className="titlebanner"> Elevate your brand <strong>now</strong> </p>  <br />
-            <TitleLogo className="titlebanner2"title='Partner with us to take your business to the next level with exceptional quality and value.' />
+            <p className="titlebanner"> Take your <strong>brand</strong> to new heights</p>  <br />
+            <TitleLogo className="titlebanner2"title="" />
           </div>
           <div className="br-needed">
             
-          <Link href='/contact' className='button-primary'>Contact Us!</Link>
+          <Link href='/contact' className='button-primary'>Check Eligibility</Link>
           </div>
         </div>
       </section>

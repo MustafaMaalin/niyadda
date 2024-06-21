@@ -26,7 +26,7 @@ export const expertise = [
   {
     id: 1,
     title: "Branding",
-    cover: "../images/e1.jpg",
+    cover: "../images/e3.jpg",
     desc: [
       { text: "Web design" },
       { text: "Web development" },
@@ -49,7 +49,7 @@ export const expertise = [
   {
     id: 3,
     title: "Websites",
-    cover: "../images/e3.jpg",
+    cover: "../images/e1.jpg",
     desc: [
       { text: "Visual identity" },
       { text: "Branding for social media" },
@@ -327,38 +327,27 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
-    cover: "../images/A+.svg",
+    cover: "../images/a+logo.png",
   },
   {
     id: 2,
-    cover: "../images/miftahalkhayr.svg",
+    cover: "../images/mchclogo.png",
   },
   {
     id: 3,
-    cover: "../images/fdr.svg",
+    cover: "../images/ecglogo.png",
   },
   {
     id: 4,
-    cover: "../images/miftahalkhayr.svg",
+    cover: "../images/oaclogo.png",
   },
   {
     id: 5,
-    cover: "../images/miftahalkhayr.svg",
+    cover: "../images/pclogo.png",
   },
   {
     id: 6,
-    cover: "../images/miftahalkhayr.svg",
-    
-    id: 7,
-    cover: "../images/miftahalkhayr.svg",
-
-    id: 8,
-    cover: "../images/miftahalkhayr.svg",
-
-    id: 9,
-    cover: "../images/miftahalkhayr.svg",
-
-
+    cover: "../images/vcslogo.png",
   },
 ];
 export const blogdata = [

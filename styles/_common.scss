@@ -148,6 +148,17 @@
     color: rgba($dark, 0.5);
   }
 }
+.heading-title2 {
+  text-align: center;
+  max-width: 65%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: $xl-4;
+  p {
+    margin: $xl-6 0;
+    color: rgba($dark, 0.5);
+  }
+}
 .card {
   h1 {
     transition: 0.5s;
