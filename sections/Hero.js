@@ -34,11 +34,16 @@ const Hero = () => {
           <br/>
           <br/>
           <Link href='/contact' className='button-started'>Get Started</Link>
+          <br/>
+      <br/>
+      <br/>
+      <br/>
         </div>
+       
       </section>
-      <Brand/>
-      <br/>
-      <br/>
+    
+      
+      
       <section className='vision'>
         <div className='container'>
           <h1 className="vision-title">
@@ -65,7 +70,11 @@ const Hero = () => {
           </div>
         </div>
       </section> */}
-      <Expertise />
+      <Expertise />  
+      <div className='heading-title'>
+            <Title title='Join the growing list of people that trust our expertise.' />
+          </div>
+      <Brand/>
      
               <div className='content flex1'>
                 <div className='container'>

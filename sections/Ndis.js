@@ -4,34 +4,36 @@ import Title, { TitleSm } from "@/components/common/Title";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Banner from "@/components/Banner"
+import ScrollToTopButton from "@/components/ScrollToTopButton";
+import Brand from "@/components/Brand";
 
 
 
 const Ndis = () => {
-    const settings = {
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 5000,
-      cssEase: "linear",
-      responsive: [
-        {
-          breakpoint: 780,
-          settings: {
-            slidesToShow: 2, // Number of slides to show for screens 780px or less
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    };
+    // const settings = {
+    //   infinite: true,
+    //   slidesToShow: 3,
+    //   slidesToScroll: 1,
+    //   autoplay: true,
+    //   speed: 5000,
+    //   cssEase: "linear",
+    //   responsive: [
+    //     {
+    //       breakpoint: 780,
+    //       settings: {
+    //         slidesToShow: 2, // Number of slides to show for screens 780px or less
+    //         slidesToScroll: 1,
+    //       },
+    //     },
+    //   ],
+    // };
   
-    const logos = [
-      "../images/oaclogo.png",
-      "../images/pclogo.png",
-      "../images/ecglogo.png",
-      "../images/mchclogo.png"
-    ];
+    // const logos = [
+    //   "../images/oaclogo.png",
+    //   "../images/pclogo.png",
+    //   "../images/ecglogo.png",
+    //   "../images/mchclogo.png"
+    // ];
   return (
     <>
       <section className='ndis bg-top'>
@@ -47,9 +49,6 @@ const Ndis = () => {
                   <TitleSm title='Join the growing list of NDIS businesses that trust us' className='title-bg' />
                 </div>
                 <div className='carousel-container'>
-                <br />
-                <br />
-                <br />
                 {/* <Slider {...settings}>
                   {logos.map((logo, index) => (
                     <div key={index} className='logo-slide'>
@@ -57,6 +56,7 @@ const Ndis = () => {
                     </div>
                   ))}
                 </Slider> */}
+                <Brand/>
               </div>
               <br />
               <br />
@@ -122,7 +122,8 @@ const Ndis = () => {
         </div>
       </section>
       <Banner />
-      
+      <ScrollToTopButton />
+
 
     </>
   );

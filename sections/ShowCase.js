@@ -3,6 +3,7 @@ import { Card } from "@/components/common/Card"
 import Showcard from "@/components/Showcard"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
+import ScrollToTopButton from "@/components/ScrollToTopButton"
 
 const ShowCase = () => {
   return (
@@ -22,5 +23,6 @@ const ShowCase = () => {
     </>
   )
 }
+<ScrollToTopButton />
 
 export default ShowCase

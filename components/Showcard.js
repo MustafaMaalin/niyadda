@@ -1,6 +1,7 @@
 import { showcase } from "@/assets/data/dummydata";
 import { Card } from "@/components/common/Card";
 import React, { useState } from "react";
+import ScrollToTopButton from "./ScrollToTopButton";
 
 const Showcard = () => {
   // Sort the showcase data by ID in descending order
@@ -26,6 +27,7 @@ const Showcard = () => {
           </button>
         </div>
       )}
+      <ScrollToTopButton />
     </>
   );
 };

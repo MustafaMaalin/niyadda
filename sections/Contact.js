@@ -8,6 +8,7 @@ import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
 import { useState } from "react"
 import axios from "axios"
+import ScrollToTopButton from "@/components/ScrollToTopButton"
 
 const Contact = () => {
 
@@ -169,8 +170,11 @@ const Contact = () => {
         </div>
 
       </section>
+      <ScrollToTopButton />
     </>
+    
   )
 }
+
 
 export default Contact

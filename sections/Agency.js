@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import Brand from "@/components/Brand";
 import Testimonial from "@/components/Testimonial";
 import { Title, TitleSm } from "@/components/common/Title";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const Agency = () => {
   return (
@@ -76,14 +77,34 @@ const Agency = () => {
           </div>
          
         </div>
-
-            
-              
       </section>
-      
-      <Brand />
+      <section className='vision'>
+        <div className='container'>
+          <p>Past</p>
+          <h1 className="vision-title">
+            Stressing about what <strong className="develop">hashtags</strong> to pick
+          </h1>
+          <div className='sub-heading'>
+            <TitleSm title='Business owners with little time on their hands had to impossibly stay up-to-date with the latest social media trends and events just to feel relevant.' />
+          </div>
+          </div>
+        </section>
+
+        <section className='vision'>
+        <div className='container'>
+          <p>The Future</p>
+          <h1 className="vision-title">
+            Leave <strong className="develop">digital matters</strong> to us so you can do you
+          </h1>
+          <div className='sub-heading'>
+            <TitleSm title='Give yourself peace of mind by leaning into our digital expertise so we can simply make you look, feel, and be good online.' />
+          </div>
+          </div>
+        </section>
+      {/* <Brand /> */}
      
       <Banner />
+      <ScrollToTopButton />
       
     </>
   );

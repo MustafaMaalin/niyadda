@@ -10,9 +10,9 @@ const Brand = () => {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
-    speed: 6000,
-    cssEase: "linear",
+    // autoplay: true,
+    speed: 10000,
+    // cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -42,9 +42,6 @@ const Brand = () => {
     <>
       <section className='brand'>
         <div className='container'>
-          <div className='heading-title2'>
-            <Title title='Join the growing list of people that trust our expertise.' />
-          </div>
           <Slider {...settings} className='brand-content py'>
             {brand.map((item) => (
               <div className='images' key={item.id}>
