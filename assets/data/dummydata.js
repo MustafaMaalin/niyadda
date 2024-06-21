@@ -28,11 +28,9 @@ export const expertise = [
     title: "Branding",
     cover: "../images/e3.jpg",
     desc: [
-      { text: "Web design" },
-      { text: "Web development" },
-      { text: "Custom icons & illustrations" },
-      { text: "Hosting" },
-      { text: "Website audit" },
+      { text: "Brand Guideline " },
+      { text: "Style Guideline" },
+      { text: "Logos" },
     ],
   },
   {
@@ -40,10 +38,9 @@ export const expertise = [
     title: "Social Media",
     cover: "../images/e2.jpg",
     desc: [
-      { text: "Social media marketing" },
-      { text: "Marketing campaigns" },
-      { text: "Markting management" },
-      { text: "SEO" },
+      { text: "Social media management" },
+      { text: "Accounts set up" },
+      { text: "Content Calendar" },
     ],
   },
   {
@@ -51,9 +48,10 @@ export const expertise = [
     title: "Websites",
     cover: "../images/e1.jpg",
     desc: [
-      { text: "Visual identity" },
-      { text: "Branding for social media" },
-      { text: "Custom illustrations" },
+      
+      { text: "Web redesign" },
+      { text: "Web development" },
+      { text: "Website maintenance" },
     ],
   },
 ];

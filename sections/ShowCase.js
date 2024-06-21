@@ -15,7 +15,7 @@ const ShowCase = () => {
             <br />
             <Title title='Our work' className='title-bg' />
           </div>
-          <TitleSm title='We are proud of the work we do for our clients. Here are some of our recent projects.' />
+          <p className="center">We are proud of the work we do for our clients. Here are some of our recent projects.</p>
           <Showcard />
 
         </div>

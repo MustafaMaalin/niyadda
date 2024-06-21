@@ -10,6 +10,8 @@ const Brand = () => {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '60px',
     // autoplay: true,
     speed: 10000,
     // cssEase: "linear",

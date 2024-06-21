@@ -80,6 +80,9 @@ const Hero = () => {
                 <div className='container'>
                 <div>
                   <Title title='Our work' />
+                  <br/>
+                  <br/>
+                  <br/>
                 </div>
                 </div>
               </div>
