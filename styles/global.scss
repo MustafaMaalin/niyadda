@@ -630,9 +630,9 @@
     }
   .hero-title {
     font-size: $xl-5 !important;
-    line-height: 115px;
+    line-height: 40px !important;
     font-weight: 600;
-    margin: $xl-6 0;
+    margin: 0px 0 35px 0 !important;
   }
   .hero .sub-heading {
     display: block; 
