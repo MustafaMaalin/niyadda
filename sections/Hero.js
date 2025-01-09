@@ -25,7 +25,7 @@ const Hero = () => {
         <h1 className='hero-title'>Making digital presence feel&nbsp;<strong className="develop">human</strong></h1>
 
           <div className='sub-heading'>
-            <TitleSm title='Niyadda Digital is a partner for busy business owners.' />
+            <TitleSm title='Niyadda Digital Agency is a partner for busy business owners.' />
           </div>
           <div className='sub-heading'>
             <TitleSm title='We take care of making your online brand heartfelt so you can focus on your business.' />

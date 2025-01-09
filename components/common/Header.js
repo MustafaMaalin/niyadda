@@ -18,6 +18,7 @@ const Header = () => {
   return (
     <>
       <header>
+      <script src="https://analytics.ahrefs.com/analytics.js" data-key="RIKrwwRDcjQxDnJ5v8rDnw" async></script>
         <div className='container'>
           <div className='logo'>
          <Link href='/' ><NiyaddaLogo/></Link>
